@@ -13,7 +13,7 @@ import json
 # In production, Airflow will provide these secrets.
 
 # TODO: Paste your Notion Secret Token here (starts with "secret_...")
-NOTION_TOKEN = "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" 
+NOTION_TOKEN = "YOUR_SECRET_TOKEN_HERE" 
 
 # TODO: Get your Database ID
 # 1. Open your "Test People Directory" in Notion in your browser.
