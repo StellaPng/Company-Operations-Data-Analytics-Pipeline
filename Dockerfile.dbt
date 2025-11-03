@@ -1,0 +1,11 @@
+# Use a Python base image
+FROM python:3.11-slim
+
+# Install Git and the necessary dependencies for dbt
+RUN apt-get update && apt-get install -y git
+
+# Install dbt-postgres
+RUN pip install --no-cache-dir dbt-postgres
+
+# Set the working directory for dbt projects
+WORKDIR /usr/app/dbt

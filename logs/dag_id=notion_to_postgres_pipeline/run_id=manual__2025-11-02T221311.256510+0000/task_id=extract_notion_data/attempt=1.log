@@ -1,0 +1,118 @@
+{"timestamp":"2025-11-02T22:14:00.392859Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-02T22:14:00.394574Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/notion_to_postgres_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-02T22:14:00.479476Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/notion_to_postgres_dag.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2025-11-02T22:14:00.479808Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/notion_to_postgres_dag.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2025-11-02T22:14:00.584894Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:00.585634Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:00.586499Z","level":"info","event":"Current task name:extract_notion_data","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:00.587115Z","level":"info","event":"Dag name:notion_to_postgres_pipeline","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:00.588207Z","level":"info","event":"Starting data extraction...","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:00.589043Z","level":"info","event":"Querying database at: https://api.notion.com/v1/databases/294842c43e8180da8bc0caf01bb615f3/query...","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.516928Z","level":"info","event":"Successfully connected!","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.517750Z","level":"info","event":"Found 100 rows in your database.","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.518394Z","level":"info","event":"Found user: Chirag Rawat","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.519087Z","level":"info","event":"Found user: Christian Smith","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.519876Z","level":"info","event":"Found user: Madhuri Tummala","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.520460Z","level":"info","event":"Found user: Ugonna  Chinazum","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.521239Z","level":"info","event":"Found user: Nathan Dean","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.522069Z","level":"info","event":"Found user: Nathan Syfrig","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.522949Z","level":"info","event":"Found user: Monil Patel","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.523872Z","level":"info","event":"Found user: Shealyn Cossette","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.524569Z","level":"info","event":"Found user: Updated","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.525333Z","level":"info","event":"Found user: Thayer Picart","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.528149Z","level":"info","event":"Found user: Fouad Algahmi","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.529212Z","level":"info","event":"Found user: Logan Ford","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.530056Z","level":"info","event":"Found user: Thais Fernandes","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.531040Z","level":"info","event":"Found user: Frans Malapo","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.532327Z","level":"info","event":"Found user: Lavdeep kaur","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.533718Z","level":"info","event":"Found user: Dhruv Chauhan","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.535442Z","level":"info","event":"Found user: Sachin Santhosh","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.536507Z","level":"info","event":"Found user: Yuanjian Gong","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.537290Z","level":"info","event":"Found user: Nitish Rony","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.538119Z","level":"info","event":"Found user: Manik Dhawan","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.538984Z","level":"info","event":"Found user: Anxun Zhang","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.539943Z","level":"info","event":"Found user: Konark Bhad","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.541048Z","level":"info","event":"Found user: Dmytro Poddubko","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.541697Z","level":"info","event":"Found user: Raj Jagrup","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.542381Z","level":"info","event":"Found user: Yulong Chen","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.543303Z","level":"info","event":"Found user: Conner Duncan","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.544085Z","level":"info","event":"Found user: Henry Daley","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.544916Z","level":"info","event":"Found user: Akashkiran Shivakumar","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.546094Z","level":"info","event":"Found user: Alec Pham","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.547100Z","level":"info","event":"Found user: Princess Irabor","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.548066Z","level":"info","event":"Found user: Majid Alansari","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.548877Z","level":"info","event":"Found user: Navpreet Singh","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.549631Z","level":"info","event":"Found user: Tsering Samkhar","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.550279Z","level":"info","event":"Found user: Afaraim Shaikh","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.550851Z","level":"info","event":"Found user: Soham Gherwada","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.551413Z","level":"info","event":"Found user: Harika Tadiboyna","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.551994Z","level":"info","event":"Found user: Kirti Gilotra","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.552630Z","level":"info","event":"Found user: Ganapathy Sankarasubramaniyan","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.553149Z","level":"info","event":"Found user: Imaobong Kingsley Archibong","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.553567Z","level":"info","event":"Found user: Shristi Ghimire","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.554034Z","level":"info","event":"Found user: Aadil Javed","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.554596Z","level":"info","event":"Found user: Veda Sai Sri Gopalam","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.555562Z","level":"info","event":"Found user: Pooria Taghdiri","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.556364Z","level":"info","event":"Found user: Deen Schroeder","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.557177Z","level":"info","event":"Found user: Jesten Auger-Fraser","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.557689Z","level":"info","event":"Found user: Emmanuella Gbadebo","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.558241Z","level":"info","event":"Found user: Imaad Farooqui","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.558890Z","level":"info","event":"Found user: Surya Chaitanya Buse","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.559452Z","level":"info","event":"Found user: Olayinka Da - Silva","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.559998Z","level":"info","event":"Found user: Lasith Ranasinghe","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.560521Z","level":"info","event":"Found user: Matthew Langeway","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.561149Z","level":"info","event":"Found user: Uzmabanu Hotelwala","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.561739Z","level":"info","event":"Found user: Sophia Sasko","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.562212Z","level":"info","event":"Found user: Marcus Miller","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.562811Z","level":"info","event":"Found user: Vrutika Shah","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.563254Z","level":"info","event":"Found user: Mehdi Ghashghaei","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.563896Z","level":"info","event":"Found user: Nakako Takei","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.564420Z","level":"info","event":"Found user: Pouya Mazloumpour","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.564946Z","level":"info","event":"Found user: Malcolm Gauthier","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.565414Z","level":"info","event":"Found user: Tom Zheng","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.565842Z","level":"info","event":"Found user: Sravani Sugasani","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.566337Z","level":"info","event":"Found user: Hooghir Mohammed","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.566874Z","level":"info","event":"Found user: Lorenzo Picken","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.567418Z","level":"info","event":"Found user: Swarali Chine","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.568079Z","level":"info","event":"Found user: Sathish reddy charlakola","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.568735Z","level":"info","event":"Found user: Xzander Trevino","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.569429Z","level":"info","event":"Found user: Sofia Vargas","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.570000Z","level":"info","event":"Found user: Ashley Haryott","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.570660Z","level":"info","event":"Found user: Krishna Nagam","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.571796Z","level":"info","event":"Found user: Ashaunte Wellington","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.572618Z","level":"info","event":"Found user: Priyanka More","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.573389Z","level":"info","event":"Found user: Pablo Rivas","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.574132Z","level":"info","event":"Found user: Prathamesh Mane","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.574772Z","level":"info","event":"Found user: Quynh Diem","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.575480Z","level":"info","event":"Found user: Lasya Priya Somaraju","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.576138Z","level":"info","event":"Found user: Ryan Siddique","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.576670Z","level":"info","event":"Found user: Medhansh Garg","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.577216Z","level":"info","event":"Found user: Wilfred NOUBISSI","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.577836Z","level":"info","event":"Found user: Mariam Gogitidze","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.578513Z","level":"info","event":"Found user: Sudeep Chaurasia","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.579045Z","level":"info","event":"Found user: Hamish Paramanandam","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.579513Z","level":"info","event":"Found user: A.B.M. Haydar","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.580037Z","level":"info","event":"Found user: Anudeep Cherukupalli","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.580499Z","level":"info","event":"Found user: George Varvaris","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.580964Z","level":"info","event":"Found user: Puneeth Shetty","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.581599Z","level":"info","event":"Found user: Sultan Alsubaie","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.582175Z","level":"info","event":"Found user: Arielle Kozin","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.582710Z","level":"info","event":"Found user: Che-An Wu","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.583178Z","level":"info","event":"Found user: Tommy Chen","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.583732Z","level":"info","event":"Found user: Kaushik Bhagat (Nova)","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.584252Z","level":"info","event":"Found user: Samuel Ajakaiye","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.584773Z","level":"info","event":"Found user: Filip Gorczyca","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.585409Z","level":"info","event":"Found user: John Rubio","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.585912Z","level":"info","event":"Found user: Jonathan Krause","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.586365Z","level":"info","event":"Found user: Michael Hiiva","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.586839Z","level":"info","event":"Found user: Cristian Ciungu","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.587291Z","level":"info","event":"Found user: Jivesh Bhambhani","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.587792Z","level":"info","event":"Found user: Paulie Ou","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.588461Z","level":"info","event":"Found user: Akhil Kumar","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.589291Z","level":"info","event":"Found user: Md Foysal Hossain","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.589923Z","level":"info","event":"Extraction task finished successfully.","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.523655Z","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-11-02T22:14:01.524260Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019a46a1-a9f2-742f-b82c-1a366e44baa4'), task_id='extract_notion_data', dag_id='notion_to_postgres_pipeline', run_id='manual__2025-11-02T22:13:11.256510+00:00', try_number=1, dag_version_id=UUID('019a468f-86b5-7c6c-bbd5-0892b9c2ab8c'), map_index=-1, hostname='13f3f5934513', context_carrier={}, task=<Task(_PythonDecoratedOperator): extract_notion_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 11, 2, 22, 13, 59, 550632, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1352}
+{"timestamp":"2025-11-02T22:14:01.643456Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.644050Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-02T22:14:01.644769Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): extract_notion_data>","logger":"task.stdout"}

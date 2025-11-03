@@ -1,0 +1,30 @@
+[0m16:57:52.448960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251DF64C590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251E068FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251E068F9D0>]}
+
+
+============================== 16:57:52.458659 | ff7affe4-fbfa-47ab-b4a7-0bfd55f8446c ==============================
+[0m16:57:52.458659 [info ] [MainThread]: Running with dbt=1.10.13
+[0m16:57:52.459674 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'target_path': 'None', 'printer_width': '80', 'no_print': 'None', 'use_colors': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\stell\\.dbt', 'invocation_command': 'dbt init', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m16:57:52.491027 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\stell\.dbt
+[0m16:58:14.695232 [debug] [MainThread]: Starter project path: C:\Users\stell\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m16:58:14.747780 [info ] [MainThread]: 
+Your new dbt project "notion_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:58:14.748989 [info ] [MainThread]: Setting up your profile.
+[0m17:04:30.706693 [info ] [MainThread]: Profile notion_analytics written to C:\Users\stell\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:04:30.709701 [debug] [MainThread]: Command `dbt init` succeeded at 17:04:30.709289 after 398.50 seconds
+[0m17:04:30.710606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251E071B490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251E0723530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251E0536030>]}
+[0m17:04:30.711938 [debug] [MainThread]: Flushing usage events
+[0m17:04:31.763285 [debug] [MainThread]: An error was encountered while trying to flush usage events
