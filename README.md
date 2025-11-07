@@ -3,8 +3,6 @@
 End-to-End Data Pipeline built with Airflow, dbt, and PostgreSQL. Extracts Notion data (People Directory) for transformation into analytics-ready dimensions (dim_employees). 
 Demonstrates robust ETL/ELT, scheduling, and data modeling skills.
 
-# Company Operations Data Analytics Pipeline
-
 This repository contains the source code and infrastructure configuration for an End-to-End ELT (Extract, Load, Transform) data pipeline. The pipeline's purpose is to sync operational data from **Notion** into a **PostgreSQL** data warehouse, transforming the raw data into clean analytical models using **dbt**, and visualizing the final output in **Metabase**.
 
 ## 1. Project Architecture (ELT Stack)
@@ -104,7 +102,7 @@ docker compose run dbt-cli bash -c "cd dbt_project && dbt run"`
 
 ---
 
-## 5. 📊 Accessing the Final Dashboard
+## 5. Accessing the Final Dashboard
 
 The Metabase server provides the visualization layer, connecting directly to the PostgreSQL database inside the Docker network.
 
