@@ -30,12 +30,12 @@ The following software must be installed on the host machine (server) to run thi
 
 ### B. Setup Steps
 
-1. **Clone the Repository:**Bash
+1. **Clone the Repository:**
     
     `git clone https://github.com/StellaPng/Company-Operations-Data-Analytics-Pipeline.git
     cd airflow-data-pipeline`
     
-2. **Launch All Services:** Run the main Docker Compose command. This starts Airflow, PostgreSQL, dbt, and Metabase simultaneously.Bash
+2. **Launch All Services:** Run the main Docker Compose command. This starts Airflow, PostgreSQL, dbt, and Metabase simultaneously.
     
     `docker compose up`
     
@@ -44,7 +44,7 @@ The following software must be installed on the host machine (server) to run thi
 
 When running for the first time, Airflow's database needs to be initialized (already performed, but required if volumes are rebuilt).
 
-Bash
+
 
 `docker compose up airflow-init # Runs necessary database migrations`
 
@@ -95,7 +95,7 @@ This connection is used by the **dbt Transformation** layer.
 
 To run the dbt models inside the container and update the clean tables:
 
-Bash
+
 
 `# Executing the full transformation model run
 docker compose run dbt-cli bash -c "cd dbt_project && dbt run"`
