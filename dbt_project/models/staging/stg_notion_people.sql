@@ -5,8 +5,8 @@
 
 SELECT
     user_id,
-    name,
-    email,
+    name AS employee_name,
+    email AS employee_email,
     -- Coalesce prevents NULL values if the status column is empty
     COALESCE(status, 'Status Missing') AS employee_status,
     -- Convert user_id to a common standard for linking

@@ -90,3 +90,2021 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m02:08:17.922886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04f23dbe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04f23db950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04f2468c10>]}
 [0m02:08:17.925033 [debug] [MainThread]: Flushing usage events
 [0m02:08:18.317516 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:02:17.486105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0812df390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0815f6390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0812eb4d0>]}
+
+
+============================== 04:02:17.494224 | 2e3c275b-8f51-44fa-a740-a57bc5cf8b91 ==============================
+[0m04:02:17.494224 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:02:17.495955 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'log_format': 'default', 'warn_error': 'None', 'profiles_dir': '/usr/app/dbt/dbt_project', 'log_cache_events': 'False', 'no_print': 'None', 'target_path': 'None', 'log_path': '/usr/app/dbt/dbt_project/logs', 'use_colors': 'True', 'empty': 'None', 'debug': 'False', 'invocation_command': 'dbt deps', 'introspect': 'True', 'printer_width': '80', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'quiet': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'static_parser': 'True'}
+[0m04:02:17.650794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2e3c275b-8f51-44fa-a740-a57bc5cf8b91', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0811e70d0>]}
+[0m04:02:17.686584 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-nyjnv_gv'
+[0m04:02:17.689204 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m04:02:18.175207 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m04:02:18.179960 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m04:02:18.273049 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m04:02:18.302121 [info ] [MainThread]: Updating lock file in file path: /usr/app/dbt/dbt_project/package-lock.yml
+[0m04:02:18.315561 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-z48t5a4q'
+[0m04:02:18.321323 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m04:02:25.847479 [info ] [MainThread]: Installed from version 1.1.1
+[0m04:02:25.849575 [info ] [MainThread]: Updated version available: 1.3.2
+[0m04:02:25.853923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '2e3c275b-8f51-44fa-a740-a57bc5cf8b91', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb081122910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0810f1110>]}
+[0m04:02:25.857134 [info ] [MainThread]: 
+[0m04:02:25.860008 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m04:02:25.864189 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 8.493749, "process_in_blocks": "4064", "process_kernel_time": 0.525225, "process_mem_max_rss": "107544", "process_out_blocks": "2288", "process_user_time": 2.162693}
+[0m04:02:25.866738 [debug] [MainThread]: Command `dbt deps` succeeded at 04:02:25.866350 after 8.50 seconds
+[0m04:02:25.871109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0812def10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0812de750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb081541fd0>]}
+[0m04:02:25.876153 [debug] [MainThread]: Flushing usage events
+[0m04:02:26.264242 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:04:26.387052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1078c729d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1078eca2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1078dbfd50>]}
+
+
+============================== 04:04:26.395674 | 45b452cb-93eb-41c1-abd6-e4e2163c58d9 ==============================
+[0m04:04:26.395674 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:04:26.397271 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'static_parser': 'True', 'write_json': 'True', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/usr/app/dbt/dbt_project', 'invocation_command': 'dbt run', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'log_format': 'default', 'no_print': 'None', 'target_path': 'None', 'version_check': 'True', 'empty': 'False', 'partial_parse': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'introspect': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/usr/app/dbt/dbt_project/logs'}
+[0m04:04:26.667229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '45b452cb-93eb-41c1-abd6-e4e2163c58d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1078b6ec10>]}
+[0m04:04:26.760503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '45b452cb-93eb-41c1-abd6-e4e2163c58d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f107b8da390>]}
+[0m04:04:26.763492 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:04:26.896948 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:04:26.907974 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m04:04:26.909520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '45b452cb-93eb-41c1-abd6-e4e2163c58d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1077bc3090>]}
+[0m04:04:29.904816 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.notion_analytics.stg_notion_people' (models/staging/stg_notion_people.sql) depends on a source named 'public.notion_people' which was not found
+[0m04:04:29.907685 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 3.623382, "process_in_blocks": "14368", "process_kernel_time": 0.288647, "process_mem_max_rss": "121488", "process_out_blocks": "2120", "process_user_time": 4.200314}
+[0m04:04:29.909779 [debug] [MainThread]: Command `dbt run` failed at 04:04:29.909555 after 3.63 seconds
+[0m04:04:29.911652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1078b608d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1078b63890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1078eca610>]}
+[0m04:04:29.913163 [debug] [MainThread]: Flushing usage events
+[0m04:04:30.293016 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:07:57.434315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183c672ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183c67f6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183c672fd0>]}
+
+
+============================== 04:07:57.443649 | 2c092f21-b5fb-4cec-ba9c-85e12f9f51bd ==============================
+[0m04:07:57.443649 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:07:57.445904 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'partial_parse': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'debug': 'False', 'version_check': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'profiles_dir': '/usr/app/dbt/dbt_project', 'quiet': 'False', 'target_path': 'None', 'no_print': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'static_parser': 'True', 'empty': 'False', 'cache_selected_only': 'False', 'write_json': 'True', 'log_path': '/usr/app/dbt/dbt_project/logs', 'use_colors': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None'}
+[0m04:07:57.684847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183bcf4950>]}
+[0m04:07:57.762298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183f2f6250>]}
+[0m04:07:57.764799 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:07:57.862424 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:07:57.873684 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m04:07:57.875581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183b995110>]}
+[0m04:08:00.550561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183e4b9b10>]}
+[0m04:08:00.703772 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:08:00.723879 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:08:00.813955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183817e410>]}
+[0m04:08:00.823534 [info ] [MainThread]: Found 3 models, 4 data tests, 1 source, 561 macros
+[0m04:08:00.833051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183a96aa50>]}
+[0m04:08:00.846577 [info ] [MainThread]: 
+[0m04:08:00.849376 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m04:08:00.851289 [info ] [MainThread]: 
+[0m04:08:00.853287 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m04:08:00.859731 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airflow'
+[0m04:08:00.921202 [debug] [ThreadPool]: Using postgres connection "list_airflow"
+[0m04:08:00.923352 [debug] [ThreadPool]: On list_airflow: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m04:08:00.925430 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:08:00.952648 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.027 seconds
+[0m04:08:00.955906 [debug] [ThreadPool]: On list_airflow: Close
+[0m04:08:00.959119 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airflow, now list_airflow_public)
+[0m04:08:00.967717 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:08:00.969451 [debug] [ThreadPool]: On list_airflow_public: BEGIN
+[0m04:08:00.971164 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:08:00.982106 [debug] [ThreadPool]: SQL status: BEGIN in 0.011 seconds
+[0m04:08:00.986677 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:08:00.991318 [debug] [ThreadPool]: On list_airflow_public: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow_public"} */
+select
+      'airflow' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m04:08:01.006858 [debug] [ThreadPool]: SQL status: SELECT 66 in 0.009 seconds
+[0m04:08:01.013695 [debug] [ThreadPool]: On list_airflow_public: ROLLBACK
+[0m04:08:01.018260 [debug] [ThreadPool]: On list_airflow_public: Close
+[0m04:08:01.034607 [debug] [MainThread]: Using postgres connection "master"
+[0m04:08:01.036795 [debug] [MainThread]: On master: BEGIN
+[0m04:08:01.041852 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:08:01.052811 [debug] [MainThread]: SQL status: BEGIN in 0.011 seconds
+[0m04:08:01.057192 [debug] [MainThread]: Using postgres connection "master"
+[0m04:08:01.060436 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m04:08:01.072163 [debug] [MainThread]: SQL status: SELECT 0 in 0.008 seconds
+[0m04:08:01.077112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183b1d4350>]}
+[0m04:08:01.081459 [debug] [MainThread]: On master: ROLLBACK
+[0m04:08:01.087039 [debug] [MainThread]: Using postgres connection "master"
+[0m04:08:01.093128 [debug] [MainThread]: On master: BEGIN
+[0m04:08:01.096975 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m04:08:01.101674 [debug] [MainThread]: On master: COMMIT
+[0m04:08:01.107032 [debug] [MainThread]: Using postgres connection "master"
+[0m04:08:01.110536 [debug] [MainThread]: On master: COMMIT
+[0m04:08:01.116894 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m04:08:01.121189 [debug] [MainThread]: On master: Close
+[0m04:08:01.131238 [debug] [Thread-1 (]: Began running node model.notion_analytics.my_first_dbt_model
+[0m04:08:01.135472 [info ] [Thread-1 (]: 1 of 3 START sql table model public.my_first_dbt_model ......................... [RUN]
+[0m04:08:01.137870 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airflow_public, now model.notion_analytics.my_first_dbt_model)
+[0m04:08:01.139992 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.my_first_dbt_model
+[0m04:08:01.154976 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.my_first_dbt_model"
+[0m04:08:01.188321 [debug] [Thread-1 (]: Began executing node model.notion_analytics.my_first_dbt_model
+[0m04:08:01.318133 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.my_first_dbt_model"
+[0m04:08:01.360321 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_first_dbt_model"
+[0m04:08:01.362055 [debug] [Thread-1 (]: On model.notion_analytics.my_first_dbt_model: BEGIN
+[0m04:08:01.363763 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:08:01.372253 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m04:08:01.373488 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_first_dbt_model"
+[0m04:08:01.374874 [debug] [Thread-1 (]: On model.notion_analytics.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.my_first_dbt_model"} */
+
+  
+    
+
+  create  table "airflow"."public"."my_first_dbt_model__dbt_tmp"
+  
+  
+    as
+  
+  (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+  
+[0m04:08:01.390786 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.014 seconds
+[0m04:08:01.407015 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_first_dbt_model"
+[0m04:08:01.410319 [debug] [Thread-1 (]: On model.notion_analytics.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.my_first_dbt_model"} */
+alter table "airflow"."public"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m04:08:01.416288 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m04:08:01.435663 [debug] [Thread-1 (]: On model.notion_analytics.my_first_dbt_model: COMMIT
+[0m04:08:01.439663 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_first_dbt_model"
+[0m04:08:01.443030 [debug] [Thread-1 (]: On model.notion_analytics.my_first_dbt_model: COMMIT
+[0m04:08:01.449437 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m04:08:01.460491 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."my_first_dbt_model__dbt_backup"
+[0m04:08:01.468512 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_first_dbt_model"
+[0m04:08:01.471079 [debug] [Thread-1 (]: On model.notion_analytics.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.my_first_dbt_model"} */
+drop table if exists "airflow"."public"."my_first_dbt_model__dbt_backup" cascade
+[0m04:08:01.475723 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.002 seconds
+[0m04:08:01.481267 [debug] [Thread-1 (]: On model.notion_analytics.my_first_dbt_model: Close
+[0m04:08:01.486342 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183a10cf10>]}
+[0m04:08:01.488874 [info ] [Thread-1 (]: 1 of 3 OK created sql table model public.my_first_dbt_model .................... [[32mSELECT 2[0m in 0.35s]
+[0m04:08:01.490896 [debug] [Thread-1 (]: Finished running node model.notion_analytics.my_first_dbt_model
+[0m04:08:01.492509 [debug] [Thread-1 (]: Began running node model.notion_analytics.stg_notion_people
+[0m04:08:01.494216 [info ] [Thread-1 (]: 2 of 3 START sql view model public.stg_notion_people ........................... [RUN]
+[0m04:08:01.497642 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.notion_analytics.my_first_dbt_model, now model.notion_analytics.stg_notion_people)
+[0m04:08:01.499695 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.stg_notion_people
+[0m04:08:01.504930 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.stg_notion_people"
+[0m04:08:01.525040 [debug] [Thread-1 (]: Began executing node model.notion_analytics.stg_notion_people
+[0m04:08:01.547765 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.stg_notion_people"
+[0m04:08:01.588389 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:08:01.591419 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: BEGIN
+[0m04:08:01.596569 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:08:01.613158 [debug] [Thread-1 (]: SQL status: BEGIN in 0.016 seconds
+[0m04:08:01.617862 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:08:01.623439 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+
+  create view "airflow"."public"."stg_notion_people__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_notion_people.sql
+
+-- This model selects core employee data from the raw table,
+-- cleans up column names, and converts data types.
+
+SELECT
+    user_id,
+    name,
+    email,
+    -- Coalesce prevents NULL values if the status column is empty
+    COALESCE(status, 'Status Missing') AS employee_status,
+    -- Convert user_id to a common standard for linking
+    TRIM(user_id) AS notion_user_id
+FROM
+    "airflow"."public"."notion_people"
+  );
+[0m04:08:01.636229 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.007 seconds
+[0m04:08:01.650556 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:08:01.656131 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people__dbt_tmp" rename to "stg_notion_people"
+[0m04:08:01.663816 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:08:01.667445 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:08:01.669961 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:08:01.672240 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:08:01.676773 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m04:08:01.684302 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."stg_notion_people__dbt_backup"
+[0m04:08:01.689366 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:08:01.691394 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+drop view if exists "airflow"."public"."stg_notion_people__dbt_backup" cascade
+[0m04:08:01.693950 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m04:08:01.697612 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: Close
+[0m04:08:01.699579 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183a904d90>]}
+[0m04:08:01.701518 [info ] [Thread-1 (]: 2 of 3 OK created sql view model public.stg_notion_people ...................... [[32mCREATE VIEW[0m in 0.20s]
+[0m04:08:01.703573 [debug] [Thread-1 (]: Finished running node model.notion_analytics.stg_notion_people
+[0m04:08:01.705530 [debug] [Thread-1 (]: Began running node model.notion_analytics.my_second_dbt_model
+[0m04:08:01.707473 [info ] [Thread-1 (]: 3 of 3 START sql view model public.my_second_dbt_model ......................... [RUN]
+[0m04:08:01.709293 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.notion_analytics.stg_notion_people, now model.notion_analytics.my_second_dbt_model)
+[0m04:08:01.711114 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.my_second_dbt_model
+[0m04:08:01.718003 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.my_second_dbt_model"
+[0m04:08:01.732529 [debug] [Thread-1 (]: Began executing node model.notion_analytics.my_second_dbt_model
+[0m04:08:01.739943 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.my_second_dbt_model"
+[0m04:08:01.755249 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_second_dbt_model"
+[0m04:08:01.756608 [debug] [Thread-1 (]: On model.notion_analytics.my_second_dbt_model: BEGIN
+[0m04:08:01.757870 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:08:01.768333 [debug] [Thread-1 (]: SQL status: BEGIN in 0.010 seconds
+[0m04:08:01.770073 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_second_dbt_model"
+[0m04:08:01.771363 [debug] [Thread-1 (]: On model.notion_analytics.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.my_second_dbt_model"} */
+
+  create view "airflow"."public"."my_second_dbt_model__dbt_tmp"
+    
+    
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "airflow"."public"."my_first_dbt_model"
+where id = 1
+  );
+[0m04:08:01.774848 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m04:08:01.780941 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_second_dbt_model"
+[0m04:08:01.783638 [debug] [Thread-1 (]: On model.notion_analytics.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.my_second_dbt_model"} */
+alter table "airflow"."public"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m04:08:01.785863 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:08:01.788991 [debug] [Thread-1 (]: On model.notion_analytics.my_second_dbt_model: COMMIT
+[0m04:08:01.790474 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_second_dbt_model"
+[0m04:08:01.791972 [debug] [Thread-1 (]: On model.notion_analytics.my_second_dbt_model: COMMIT
+[0m04:08:01.796049 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m04:08:01.801519 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."my_second_dbt_model__dbt_backup"
+[0m04:08:01.803689 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.my_second_dbt_model"
+[0m04:08:01.805608 [debug] [Thread-1 (]: On model.notion_analytics.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.my_second_dbt_model"} */
+drop view if exists "airflow"."public"."my_second_dbt_model__dbt_backup" cascade
+[0m04:08:01.807409 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m04:08:01.810288 [debug] [Thread-1 (]: On model.notion_analytics.my_second_dbt_model: Close
+[0m04:08:01.812943 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c092f21-b5fb-4cec-ba9c-85e12f9f51bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183a905c50>]}
+[0m04:08:01.815576 [info ] [Thread-1 (]: 3 of 3 OK created sql view model public.my_second_dbt_model .................... [[32mCREATE VIEW[0m in 0.10s]
+[0m04:08:01.817904 [debug] [Thread-1 (]: Finished running node model.notion_analytics.my_second_dbt_model
+[0m04:08:01.821405 [debug] [MainThread]: Using postgres connection "master"
+[0m04:08:01.823120 [debug] [MainThread]: On master: BEGIN
+[0m04:08:01.824871 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m04:08:01.833982 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m04:08:01.835970 [debug] [MainThread]: On master: COMMIT
+[0m04:08:01.839254 [debug] [MainThread]: Using postgres connection "master"
+[0m04:08:01.841808 [debug] [MainThread]: On master: COMMIT
+[0m04:08:01.843860 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m04:08:01.846559 [debug] [MainThread]: On master: Close
+[0m04:08:01.849880 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:08:01.851890 [debug] [MainThread]: Connection 'model.notion_analytics.my_second_dbt_model' was properly closed.
+[0m04:08:01.853651 [info ] [MainThread]: 
+[0m04:08:01.855332 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 1.00 seconds (1.00s).
+[0m04:08:01.858972 [debug] [MainThread]: Command end result
+[0m04:08:01.936047 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:08:01.946194 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:08:01.959861 [debug] [MainThread]: Wrote artifact RunExecutionResult to /usr/app/dbt/dbt_project/target/run_results.json
+[0m04:08:01.961339 [info ] [MainThread]: 
+[0m04:08:01.965177 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m04:08:01.967513 [info ] [MainThread]: 
+[0m04:08:01.969552 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m04:08:01.972280 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.6334877, "process_in_blocks": "7824", "process_kernel_time": 0.497111, "process_mem_max_rss": "137292", "process_out_blocks": "2240", "process_user_time": 4.553537}
+[0m04:08:01.973838 [debug] [MainThread]: Command `dbt run` succeeded at 04:08:01.973634 after 4.64 seconds
+[0m04:08:01.975443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1840f35090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1840f34ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1840f35050>]}
+[0m04:08:01.976939 [debug] [MainThread]: Flushing usage events
+[0m04:08:02.383866 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:12:18.668561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd981e2b2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd981e2b090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd981e2b010>]}
+
+
+============================== 04:12:18.676777 | 3df04518-1fda-48b1-b1e9-b0eea8a566c3 ==============================
+[0m04:12:18.676777 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:12:18.678582 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'profiles_dir': '/usr/app/dbt/dbt_project', 'introspect': 'True', 'static_parser': 'True', 'quiet': 'False', 'fail_fast': 'False', 'log_path': '/usr/app/dbt/dbt_project/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'write_json': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'target_path': 'None', 'log_cache_events': 'False', 'use_colors': 'True', 'printer_width': '80', 'use_experimental_parser': 'False', 'no_print': 'None', 'log_format': 'default', 'warn_error': 'None'}
+[0m04:12:18.902977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd982c910d0>]}
+[0m04:12:18.976814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd984b46210>]}
+[0m04:12:18.981941 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:12:19.085068 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:12:19.247662 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m04:12:19.250107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9811eadd0>]}
+[0m04:12:22.149450 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.unique_my_first_dbt_model_id.16e066b321' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which is disabled
+[0m04:12:22.153515 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.not_null_my_first_dbt_model_id.5fb22c2710' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which is disabled
+[0m04:12:22.156813 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.unique_my_second_dbt_model_id.57a0f8c493' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which is disabled
+[0m04:12:22.158853 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.not_null_my_second_dbt_model_id.151b76d778' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which is disabled
+[0m04:12:22.339997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9801102d0>]}
+[0m04:12:22.522449 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:12:22.538140 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:12:22.579629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd97d66ff10>]}
+[0m04:12:22.581288 [info ] [MainThread]: Found 1 model, 1 source, 561 macros
+[0m04:12:22.583004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd97fd16c10>]}
+[0m04:12:22.586245 [info ] [MainThread]: 
+[0m04:12:22.588083 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m04:12:22.590047 [info ] [MainThread]: 
+[0m04:12:22.593384 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m04:12:22.595658 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airflow'
+[0m04:12:22.655654 [debug] [ThreadPool]: Using postgres connection "list_airflow"
+[0m04:12:22.658214 [debug] [ThreadPool]: On list_airflow: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m04:12:22.659668 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:12:22.671728 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.012 seconds
+[0m04:12:22.678291 [debug] [ThreadPool]: On list_airflow: Close
+[0m04:12:22.682953 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airflow, now list_airflow_public)
+[0m04:12:22.761706 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:12:22.765478 [debug] [ThreadPool]: On list_airflow_public: BEGIN
+[0m04:12:22.770046 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:12:22.782281 [debug] [ThreadPool]: SQL status: BEGIN in 0.012 seconds
+[0m04:12:22.787192 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:12:22.791932 [debug] [ThreadPool]: On list_airflow_public: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow_public"} */
+select
+      'airflow' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m04:12:22.801569 [debug] [ThreadPool]: SQL status: SELECT 69 in 0.003 seconds
+[0m04:12:22.814814 [debug] [ThreadPool]: On list_airflow_public: ROLLBACK
+[0m04:12:22.824803 [debug] [ThreadPool]: On list_airflow_public: Close
+[0m04:12:22.844107 [debug] [MainThread]: Using postgres connection "master"
+[0m04:12:22.850446 [debug] [MainThread]: On master: BEGIN
+[0m04:12:22.853467 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:12:22.865035 [debug] [MainThread]: SQL status: BEGIN in 0.012 seconds
+[0m04:12:22.870091 [debug] [MainThread]: Using postgres connection "master"
+[0m04:12:22.873628 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m04:12:22.879252 [debug] [MainThread]: SQL status: SELECT 2 in 0.003 seconds
+[0m04:12:22.884778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd97fdadb90>]}
+[0m04:12:22.889488 [debug] [MainThread]: On master: ROLLBACK
+[0m04:12:22.895959 [debug] [MainThread]: Using postgres connection "master"
+[0m04:12:22.904184 [debug] [MainThread]: On master: BEGIN
+[0m04:12:22.910357 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m04:12:22.912459 [debug] [MainThread]: On master: COMMIT
+[0m04:12:22.915024 [debug] [MainThread]: Using postgres connection "master"
+[0m04:12:22.917575 [debug] [MainThread]: On master: COMMIT
+[0m04:12:22.920122 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m04:12:22.922326 [debug] [MainThread]: On master: Close
+[0m04:12:22.931986 [debug] [Thread-1 (]: Began running node model.notion_analytics.stg_notion_people
+[0m04:12:22.935229 [info ] [Thread-1 (]: 1 of 1 START sql view model public.stg_notion_people ........................... [RUN]
+[0m04:12:22.938481 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airflow_public, now model.notion_analytics.stg_notion_people)
+[0m04:12:22.941230 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.stg_notion_people
+[0m04:12:22.952629 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.stg_notion_people"
+[0m04:12:22.971864 [debug] [Thread-1 (]: Began executing node model.notion_analytics.stg_notion_people
+[0m04:12:23.029123 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.stg_notion_people"
+[0m04:12:23.052382 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:12:23.054325 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: BEGIN
+[0m04:12:23.055978 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:12:23.065188 [debug] [Thread-1 (]: SQL status: BEGIN in 0.009 seconds
+[0m04:12:23.066695 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:12:23.068032 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+
+  create view "airflow"."public"."stg_notion_people__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_notion_people.sql
+
+-- This model selects core employee data from the raw table,
+-- cleans up column names, and converts data types.
+
+SELECT
+    user_id,
+    name,
+    email,
+    -- Coalesce prevents NULL values if the status column is empty
+    COALESCE(status, 'Status Missing') AS employee_status,
+    -- Convert user_id to a common standard for linking
+    TRIM(user_id) AS notion_user_id
+FROM
+    "airflow"."public"."notion_people"
+  );
+[0m04:12:23.071616 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.002 seconds
+[0m04:12:23.081426 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:12:23.082901 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people" rename to "stg_notion_people__dbt_backup"
+[0m04:12:23.084989 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:12:23.089991 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:12:23.091538 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people__dbt_tmp" rename to "stg_notion_people"
+[0m04:12:23.093504 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:12:23.114445 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:12:23.116689 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:12:23.118918 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:12:23.123084 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m04:12:23.134356 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."stg_notion_people__dbt_backup"
+[0m04:12:23.141881 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:12:23.143693 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+drop view if exists "airflow"."public"."stg_notion_people__dbt_backup" cascade
+[0m04:12:23.152529 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.007 seconds
+[0m04:12:23.156607 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: Close
+[0m04:12:23.159977 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3df04518-1fda-48b1-b1e9-b0eea8a566c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd98093a750>]}
+[0m04:12:23.162108 [info ] [Thread-1 (]: 1 of 1 OK created sql view model public.stg_notion_people ...................... [[32mCREATE VIEW[0m in 0.22s]
+[0m04:12:23.164163 [debug] [Thread-1 (]: Finished running node model.notion_analytics.stg_notion_people
+[0m04:12:23.167470 [debug] [MainThread]: Using postgres connection "master"
+[0m04:12:23.168862 [debug] [MainThread]: On master: BEGIN
+[0m04:12:23.170134 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m04:12:23.178651 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m04:12:23.180283 [debug] [MainThread]: On master: COMMIT
+[0m04:12:23.181851 [debug] [MainThread]: Using postgres connection "master"
+[0m04:12:23.182965 [debug] [MainThread]: On master: COMMIT
+[0m04:12:23.184360 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m04:12:23.185661 [debug] [MainThread]: On master: Close
+[0m04:12:23.187095 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:12:23.188320 [debug] [MainThread]: Connection 'model.notion_analytics.stg_notion_people' was properly closed.
+[0m04:12:23.190080 [info ] [MainThread]: 
+[0m04:12:23.192697 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.60 seconds (0.60s).
+[0m04:12:23.195503 [debug] [MainThread]: Command end result
+[0m04:12:23.259732 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:12:23.267281 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:12:23.280186 [debug] [MainThread]: Wrote artifact RunExecutionResult to /usr/app/dbt/dbt_project/target/run_results.json
+[0m04:12:23.281451 [info ] [MainThread]: 
+[0m04:12:23.282860 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m04:12:23.284664 [info ] [MainThread]: 
+[0m04:12:23.286559 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m04:12:23.288756 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.7892985, "process_in_blocks": "0", "process_kernel_time": 0.366519, "process_mem_max_rss": "137112", "process_out_blocks": "2240", "process_user_time": 4.229833}
+[0m04:12:23.290234 [debug] [MainThread]: Command `dbt run` succeeded at 04:12:23.289991 after 4.79 seconds
+[0m04:12:23.292012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd986784ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9867845d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd986785590>]}
+[0m04:12:23.293566 [debug] [MainThread]: Flushing usage events
+[0m04:12:23.646013 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:19:21.642536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde4e85b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde4b1b2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde4b1b610>]}
+
+
+============================== 04:19:21.654706 | a565c37f-1ee3-4b59-ac71-b71f83aa00f6 ==============================
+[0m04:19:21.654706 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:19:21.657523 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'partial_parse': 'True', 'log_cache_events': 'False', 'introspect': 'True', 'log_format': 'default', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'fail_fast': 'False', 'log_path': '/usr/app/dbt/dbt_project/logs', 'profiles_dir': '/usr/app/dbt/dbt_project', 'target_path': 'None', 'printer_width': '80', 'no_print': 'None', 'warn_error': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'debug': 'False', 'version_check': 'True', 'invocation_command': 'dbt run'}
+[0m04:19:21.888706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a565c37f-1ee3-4b59-ac71-b71f83aa00f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde4a45090>]}
+[0m04:19:21.961583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a565c37f-1ee3-4b59-ac71-b71f83aa00f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde77c0890>]}
+[0m04:19:21.963964 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:19:22.063371 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:19:23.140156 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m04:19:23.141693 [debug] [MainThread]: Partial parsing: added file: notion_analytics://models/dim_employees.sql
+[0m04:19:23.364444 [error] [MainThread]: Encountered an error:
+Compilation Error in model dim_employees (models/dim_employees.sql)
+  
+  Warning: `dbt_utils.surrogate_key` has been replaced by `dbt_utils.generate_surrogate_key`. The new macro treats null values differently to empty strings. To restore the behaviour of the original macro, add a global variable in dbt_project.yml called `surrogate_key_treat_nulls_as_empty_strings` to your dbt_project.yml file with a value of True. The notion_analytics.dim_employees model triggered this warning. 
+  
+  > in macro default__surrogate_key (macros/sql/surrogate_key.sql)
+  > called by macro surrogate_key (macros/sql/surrogate_key.sql)
+  > called by model dim_employees (models/dim_employees.sql)
+[0m04:19:23.367326 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.8250983, "process_in_blocks": "16", "process_kernel_time": 0.411383, "process_mem_max_rss": "117828", "process_out_blocks": "2120", "process_user_time": 2.538538}
+[0m04:19:23.369466 [debug] [MainThread]: Command `dbt run` failed at 04:19:23.369188 after 1.83 seconds
+[0m04:19:23.370874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde4a71b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde232e850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde4a89990>]}
+[0m04:19:23.372887 [debug] [MainThread]: Flushing usage events
+[0m04:19:23.764526 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:21:37.607906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad296fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad19ac50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad19b490>]}
+
+
+============================== 04:21:37.616225 | 03d77045-fafb-44d4-aaca-42e4397eff2f ==============================
+[0m04:21:37.616225 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:21:37.618735 [debug] [MainThread]: running dbt with arguments {'log_path': '/usr/app/dbt/dbt_project/logs', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/usr/app/dbt/dbt_project', 'warn_error': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'printer_width': '80', 'debug': 'False', 'quiet': 'False', 'fail_fast': 'False', 'target_path': 'None', 'log_format': 'default', 'log_cache_events': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'use_experimental_parser': 'False', 'empty': 'None', 'introspect': 'True'}
+[0m04:21:37.774336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '03d77045-fafb-44d4-aaca-42e4397eff2f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad19b250>]}
+[0m04:21:38.542498 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-lm4ixzft'
+[0m04:21:38.546038 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m04:21:38.779898 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m04:21:38.784996 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m04:21:38.918158 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m04:21:38.927518 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m04:21:45.985558 [info ] [MainThread]: Installed from version 1.1.1
+[0m04:21:45.987616 [info ] [MainThread]: Updated version available: 1.3.2
+[0m04:21:45.990030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '03d77045-fafb-44d4-aaca-42e4397eff2f', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad0fef90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad22fd10>]}
+[0m04:21:45.992492 [info ] [MainThread]: 
+[0m04:21:45.994838 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m04:21:46.000584 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 8.502721, "process_in_blocks": "0", "process_kernel_time": 0.62608, "process_mem_max_rss": "107636", "process_out_blocks": "2288", "process_user_time": 2.251868}
+[0m04:21:46.003088 [debug] [MainThread]: Command `dbt deps` succeeded at 04:21:46.002750 after 8.51 seconds
+[0m04:21:46.005044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad49b390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad2a2e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad2a3890>]}
+[0m04:21:46.006879 [debug] [MainThread]: Flushing usage events
+[0m04:21:46.371369 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:23:22.145071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff521418490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5214276d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff521427490>]}
+
+
+============================== 04:23:22.156622 | 595c5144-a46f-4aba-864c-fc6184b81fbe ==============================
+[0m04:23:22.156622 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:23:22.159599 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'indirect_selection': 'eager', 'profiles_dir': '/usr/app/dbt/dbt_project', 'use_experimental_parser': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'target_path': 'None', 'introspect': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'cache_selected_only': 'False', 'printer_width': '80', 'version_check': 'True', 'log_path': '/usr/app/dbt/dbt_project/logs', 'no_print': 'None', 'log_cache_events': 'False', 'warn_error': 'None', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'fail_fast': 'False'}
+[0m04:23:22.392613 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '595c5144-a46f-4aba-864c-fc6184b81fbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff520328310>]}
+[0m04:23:22.463429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '595c5144-a46f-4aba-864c-fc6184b81fbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff52409a1d0>]}
+[0m04:23:22.470305 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:23:22.629652 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:23:24.469238 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m04:23:24.471259 [debug] [MainThread]: Partial parsing: added file: notion_analytics://models/dim_employees.sql
+[0m04:23:24.683812 [error] [MainThread]: Encountered an error:
+Compilation Error in model dim_employees (models/dim_employees.sql)
+  
+  Warning: `dbt_utils.surrogate_key` has been replaced by `dbt_utils.generate_surrogate_key`. The new macro treats null values differently to empty strings. To restore the behaviour of the original macro, add a global variable in dbt_project.yml called `surrogate_key_treat_nulls_as_empty_strings` to your dbt_project.yml file with a value of True. The notion_analytics.dim_employees model triggered this warning. 
+  
+  > in macro default__surrogate_key (macros/sql/surrogate_key.sql)
+  > called by macro surrogate_key (macros/sql/surrogate_key.sql)
+  > called by model dim_employees (models/dim_employees.sql)
+[0m04:23:24.687189 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.6732259, "process_in_blocks": "0", "process_kernel_time": 0.401889, "process_mem_max_rss": "117672", "process_out_blocks": "2120", "process_user_time": 2.44148}
+[0m04:23:24.689268 [debug] [MainThread]: Command `dbt run` failed at 04:23:24.689064 after 2.68 seconds
+[0m04:23:24.691503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff525cdd090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff52130fcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5215a42d0>]}
+[0m04:23:24.694516 [debug] [MainThread]: Flushing usage events
+[0m04:23:25.069687 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:29:58.715933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d20eab650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d20eb7690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d20eb7610>]}
+
+
+============================== 04:29:58.724842 | 33044c77-0a58-462e-96e0-b198b8e8ff65 ==============================
+[0m04:29:58.724842 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:29:58.726762 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'cache_selected_only': 'False', 'profiles_dir': '/usr/app/dbt/dbt_project', 'introspect': 'True', 'log_cache_events': 'False', 'use_colors': 'True', 'target_path': 'None', 'empty': 'False', 'quiet': 'False', 'write_json': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'version_check': 'True', 'partial_parse': 'True', 'log_path': '/usr/app/dbt/dbt_project/logs', 'log_format': 'default', 'printer_width': '80', 'debug': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None'}
+[0m04:29:58.801022 [warn ] [MainThread]: [[33mWARNING[0m][DuplicateYAMLKeysDeprecation]: Deprecated functionality
+Duplicate key 'profile' in "<unicode string>", line 19, column 1 in file
+`/usr/app/dbt/dbt_project/dbt_project.yml`
+[0m04:29:58.802749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '33044c77-0a58-462e-96e0-b198b8e8ff65', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d1ff29e50>]}
+[0m04:29:58.939026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '33044c77-0a58-462e-96e0-b198b8e8ff65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d1fb018d0>]}
+[0m04:29:59.012971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '33044c77-0a58-462e-96e0-b198b8e8ff65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d23bbe690>]}
+[0m04:29:59.015397 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:29:59.118846 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:29:59.255306 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m04:29:59.258709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '33044c77-0a58-462e-96e0-b198b8e8ff65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d1f797dd0>]}
+[0m04:30:01.693461 [error] [MainThread]: Encountered an error:
+Compilation Error in model dim_employees (models/dim_employees.sql)
+  
+  Warning: `dbt_utils.surrogate_key` has been replaced by `dbt_utils.generate_surrogate_key`. The new macro treats null values differently to empty strings. To restore the behaviour of the original macro, add a global variable in dbt_project.yml called `surrogate_key_treat_nulls_as_empty_strings` to your dbt_project.yml file with a value of True. The notion_analytics.dim_employees model triggered this warning. 
+  
+  > in macro default__surrogate_key (macros/sql/surrogate_key.sql)
+  > called by macro surrogate_key (macros/sql/surrogate_key.sql)
+  > called by model dim_employees (models/dim_employees.sql)
+[0m04:30:01.696288 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- DuplicateYAMLKeysDeprecation: 2 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m04:30:01.700295 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 3.0722642, "process_in_blocks": "0", "process_kernel_time": 0.341265, "process_mem_max_rss": "116400", "process_out_blocks": "2120", "process_user_time": 3.784031}
+[0m04:30:01.702421 [debug] [MainThread]: Command `dbt run` failed at 04:30:01.702113 after 3.07 seconds
+[0m04:30:01.704275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d20e47810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d1efaf990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d1f3b7b90>]}
+[0m04:30:01.706370 [debug] [MainThread]: Flushing usage events
+[0m04:30:02.099933 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:32:20.079102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7b298050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7b361590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7b29a9d0>]}
+
+
+============================== 04:32:20.092285 | 59b1b922-8eab-4962-b4c8-0a5e1ab9b482 ==============================
+[0m04:32:20.092285 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:32:20.095418 [debug] [MainThread]: running dbt with arguments {'empty': 'False', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'printer_width': '80', 'profiles_dir': '/usr/app/dbt/dbt_project', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'log_cache_events': 'False', 'invocation_command': 'dbt run', 'write_json': 'True', 'indirect_selection': 'eager', 'debug': 'False', 'use_colors': 'True', 'log_path': '/usr/app/dbt/dbt_project/logs', 'log_format': 'default', 'no_print': 'None', 'quiet': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'use_experimental_parser': 'False'}
+[0m04:32:20.365349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '59b1b922-8eab-4962-b4c8-0a5e1ab9b482', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7b266a90>]}
+[0m04:32:20.437967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '59b1b922-8eab-4962-b4c8-0a5e1ab9b482', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7dfce490>]}
+[0m04:32:20.440566 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:32:20.544822 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:32:20.690713 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m04:32:20.692633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '59b1b922-8eab-4962-b4c8-0a5e1ab9b482', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7b941a50>]}
+[0m04:32:22.927716 [error] [MainThread]: Encountered an error:
+Compilation Error in model dim_employees (models/dim_employees.sql)
+  
+  Warning: `dbt_utils.surrogate_key` has been replaced by `dbt_utils.generate_surrogate_key`. The new macro treats null values differently to empty strings. To restore the behaviour of the original macro, add a global variable in dbt_project.yml called `surrogate_key_treat_nulls_as_empty_strings` to your dbt_project.yml file with a value of True. The notion_analytics.dim_employees model triggered this warning. 
+  
+  > in macro default__surrogate_key (macros/sql/surrogate_key.sql)
+  > called by macro surrogate_key (macros/sql/surrogate_key.sql)
+  > called by model dim_employees (models/dim_employees.sql)
+[0m04:32:22.930662 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.9844468, "process_in_blocks": "0", "process_kernel_time": 0.54949, "process_mem_max_rss": "116696", "process_out_blocks": "2120", "process_user_time": 3.696575}
+[0m04:32:22.933105 [debug] [MainThread]: Command `dbt run` failed at 04:32:22.932831 after 2.99 seconds
+[0m04:32:22.934889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7b25b490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e7b25b590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7e793b1850>]}
+[0m04:32:22.937349 [debug] [MainThread]: Flushing usage events
+[0m04:32:23.309034 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:35:07.015238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f720d7c3650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f720dbc9d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f720d7c3090>]}
+
+
+============================== 04:35:07.026548 | 691add03-dde2-4168-a1b4-6d125a756ec0 ==============================
+[0m04:35:07.026548 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:35:07.031206 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'log_format': 'default', 'warn_error': 'None', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'quiet': 'False', 'use_experimental_parser': 'False', 'target_path': 'None', 'fail_fast': 'False', 'debug': 'False', 'printer_width': '80', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'profiles_dir': '/usr/app/dbt/dbt_project', 'log_path': '/usr/app/dbt/dbt_project/logs', 'use_colors': 'True', 'write_json': 'True', 'log_cache_events': 'False', 'empty': 'False', 'no_print': 'None'}
+[0m04:35:07.284105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '691add03-dde2-4168-a1b4-6d125a756ec0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f720cf3f2d0>]}
+[0m04:35:07.379647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '691add03-dde2-4168-a1b4-6d125a756ec0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72104d8390>]}
+[0m04:35:07.381867 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:35:07.494995 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:35:07.669480 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m04:35:07.671602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '691add03-dde2-4168-a1b4-6d125a756ec0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f720de6dc50>]}
+[0m04:35:10.775765 [error] [MainThread]: Encountered an error:
+Compilation Error in model dim_employees (models/dim_employees.sql)
+  
+  Warning: `dbt_utils.surrogate_key` has been replaced by `dbt_utils.generate_surrogate_key`. The new macro treats null values differently to empty strings. To restore the behaviour of the original macro, add a global variable in dbt_project.yml called `surrogate_key_treat_nulls_as_empty_strings` to your dbt_project.yml file with a value of True. The notion_analytics.dim_employees model triggered this warning. 
+  
+  > in macro default__surrogate_key (macros/sql/surrogate_key.sql)
+  > called by macro surrogate_key (macros/sql/surrogate_key.sql)
+  > called by model dim_employees (models/dim_employees.sql)
+[0m04:35:10.780856 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 3.938289, "process_in_blocks": "0", "process_kernel_time": 0.392373, "process_mem_max_rss": "116316", "process_out_blocks": "2120", "process_user_time": 3.591727}
+[0m04:35:10.784386 [debug] [MainThread]: Command `dbt run` failed at 04:35:10.784117 after 3.94 seconds
+[0m04:35:10.787426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f721211ce10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f720bbaf950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f720d7ce850>]}
+[0m04:35:10.791529 [debug] [MainThread]: Flushing usage events
+[0m04:35:11.163412 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:38:00.348702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77261a20d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7725f3f690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7725f33f50>]}
+
+
+============================== 04:38:00.367419 | a2c53c59-523d-4a41-893c-3914f55af263 ==============================
+[0m04:38:00.367419 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:38:00.371313 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/usr/app/dbt/dbt_project', 'partial_parse': 'True', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'write_json': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_path': '/usr/app/dbt/dbt_project/logs', 'indirect_selection': 'eager', 'use_colors': 'True', 'debug': 'False', 'empty': 'False', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'version_check': 'True', 'printer_width': '80'}
+[0m04:38:00.650269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7724fea890>]}
+[0m04:38:00.740531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7728bb6450>]}
+[0m04:38:00.743707 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:38:00.913446 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:38:01.097480 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m04:38:01.101256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7726f86090>]}
+[0m04:38:04.368312 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.unique_my_first_dbt_model_id.16e066b321' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which is disabled
+[0m04:38:04.370595 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.not_null_my_first_dbt_model_id.5fb22c2710' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which is disabled
+[0m04:38:04.372559 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.unique_my_second_dbt_model_id.57a0f8c493' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which is disabled
+[0m04:38:04.374446 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.not_null_my_second_dbt_model_id.151b76d778' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which is disabled
+[0m04:38:04.544702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7724337f50>]}
+[0m04:38:04.769052 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:38:04.777218 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:38:04.848395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77215d1fd0>]}
+[0m04:38:04.853526 [info ] [MainThread]: Found 2 models, 1 source, 561 macros
+[0m04:38:04.856541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f772436af90>]}
+[0m04:38:04.864879 [info ] [MainThread]: 
+[0m04:38:04.869461 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m04:38:04.872370 [info ] [MainThread]: 
+[0m04:38:04.877668 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m04:38:04.890371 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airflow'
+[0m04:38:05.003233 [debug] [ThreadPool]: Using postgres connection "list_airflow"
+[0m04:38:05.006987 [debug] [ThreadPool]: On list_airflow: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m04:38:05.011162 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:38:05.070431 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.059 seconds
+[0m04:38:05.080734 [debug] [ThreadPool]: On list_airflow: Close
+[0m04:38:05.089991 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airflow, now list_airflow_public)
+[0m04:38:05.112093 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:38:05.119563 [debug] [ThreadPool]: On list_airflow_public: BEGIN
+[0m04:38:05.131177 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:38:05.151666 [debug] [ThreadPool]: SQL status: BEGIN in 0.021 seconds
+[0m04:38:05.155639 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:38:05.163190 [debug] [ThreadPool]: On list_airflow_public: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow_public"} */
+select
+      'airflow' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m04:38:05.180832 [debug] [ThreadPool]: SQL status: SELECT 69 in 0.013 seconds
+[0m04:38:05.189832 [debug] [ThreadPool]: On list_airflow_public: ROLLBACK
+[0m04:38:05.196252 [debug] [ThreadPool]: On list_airflow_public: Close
+[0m04:38:05.219736 [debug] [MainThread]: Using postgres connection "master"
+[0m04:38:05.224547 [debug] [MainThread]: On master: BEGIN
+[0m04:38:05.228293 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:38:05.244918 [debug] [MainThread]: SQL status: BEGIN in 0.017 seconds
+[0m04:38:05.250079 [debug] [MainThread]: Using postgres connection "master"
+[0m04:38:05.256292 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m04:38:05.275086 [debug] [MainThread]: SQL status: SELECT 2 in 0.014 seconds
+[0m04:38:05.284952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7724377010>]}
+[0m04:38:05.288067 [debug] [MainThread]: On master: ROLLBACK
+[0m04:38:05.292657 [debug] [MainThread]: Using postgres connection "master"
+[0m04:38:05.298173 [debug] [MainThread]: On master: BEGIN
+[0m04:38:05.308519 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m04:38:05.315092 [debug] [MainThread]: On master: COMMIT
+[0m04:38:05.321763 [debug] [MainThread]: Using postgres connection "master"
+[0m04:38:05.324578 [debug] [MainThread]: On master: COMMIT
+[0m04:38:05.328696 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m04:38:05.332798 [debug] [MainThread]: On master: Close
+[0m04:38:05.351669 [debug] [Thread-1 (]: Began running node model.notion_analytics.stg_notion_people
+[0m04:38:05.354667 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_notion_people ........................... [RUN]
+[0m04:38:05.358576 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airflow_public, now model.notion_analytics.stg_notion_people)
+[0m04:38:05.361009 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.stg_notion_people
+[0m04:38:05.372195 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.stg_notion_people"
+[0m04:38:05.390367 [debug] [Thread-1 (]: Began executing node model.notion_analytics.stg_notion_people
+[0m04:38:05.433523 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.stg_notion_people"
+[0m04:38:05.469357 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:38:05.475539 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: BEGIN
+[0m04:38:05.479888 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:38:05.493493 [debug] [Thread-1 (]: SQL status: BEGIN in 0.014 seconds
+[0m04:38:05.498315 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:38:05.501056 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+
+  create view "airflow"."public"."stg_notion_people__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_notion_people.sql
+
+-- This model selects core employee data from the raw table,
+-- cleans up column names, and converts data types.
+
+SELECT
+    user_id,
+    name,
+    email,
+    -- Coalesce prevents NULL values if the status column is empty
+    COALESCE(status, 'Status Missing') AS employee_status,
+    -- Convert user_id to a common standard for linking
+    TRIM(user_id) AS notion_user_id
+FROM
+    "airflow"."public"."notion_people"
+  );
+[0m04:38:05.520927 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.015 seconds
+[0m04:38:05.539242 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:38:05.543139 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people" rename to "stg_notion_people__dbt_backup"
+[0m04:38:05.548060 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:38:05.636694 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:38:05.639996 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people__dbt_tmp" rename to "stg_notion_people"
+[0m04:38:05.644538 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:38:05.665662 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:38:05.669920 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:38:05.676453 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:38:05.682578 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m04:38:05.693840 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."stg_notion_people__dbt_backup"
+[0m04:38:05.704930 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:38:05.709371 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+drop view if exists "airflow"."public"."stg_notion_people__dbt_backup" cascade
+[0m04:38:05.720098 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.005 seconds
+[0m04:38:05.732986 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: Close
+[0m04:38:05.745153 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7720880ad0>]}
+[0m04:38:05.751311 [info ] [Thread-1 (]: 1 of 2 OK created sql view model public.stg_notion_people ...................... [[32mCREATE VIEW[0m in 0.39s]
+[0m04:38:05.754373 [debug] [Thread-1 (]: Finished running node model.notion_analytics.stg_notion_people
+[0m04:38:05.761635 [debug] [Thread-1 (]: Began running node model.notion_analytics.dim_employees
+[0m04:38:05.765517 [info ] [Thread-1 (]: 2 of 2 START sql view model public.dim_employees ............................... [RUN]
+[0m04:38:05.767932 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.notion_analytics.stg_notion_people, now model.notion_analytics.dim_employees)
+[0m04:38:05.769444 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.dim_employees
+[0m04:38:05.775517 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.dim_employees"
+[0m04:38:05.789736 [debug] [Thread-1 (]: Began executing node model.notion_analytics.dim_employees
+[0m04:38:05.796876 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.dim_employees"
+[0m04:38:05.809622 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:38:05.811380 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: BEGIN
+[0m04:38:05.812809 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:38:05.820943 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m04:38:05.822440 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:38:05.823908 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+
+  create view "airflow"."public"."dim_employees__dbt_tmp"
+    
+    
+  as (
+    -- models/dim_employees.sql
+
+-- This model creates the final Employee Dimension table (dim_employees).
+-- This is the clean, definitive table that BI tools (like Looker Studio) will query.
+
+SELECT
+    -- Creates a unique, hash-based ID (the Employee Key) for linking to other tables
+    
+    md5(cast(coalesce(cast(notion_user_id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(employee_email as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) AS employee_key,
+    notion_user_id,
+    employee_name,
+    employee_email,
+    employee_status
+FROM
+    "airflow"."public"."stg_notion_people"
+-- Filter out any rows where the email is missing, as the email is critical for linking to Slack/Google.
+WHERE
+    employee_email IS NOT NULL 
+    AND employee_status = 'Active' -- Only include current, active employees for reporting
+  );
+[0m04:38:05.828688 [debug] [Thread-1 (]: Postgres adapter: Postgres error: column "employee_email" does not exist
+LINE 15: ...ils_surrogate_key_null_') || '-' || coalesce(cast(employee_e...
+                                                              ^
+
+[0m04:38:05.830486 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: ROLLBACK
+[0m04:38:05.832181 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: Close
+[0m04:38:05.841388 [debug] [Thread-1 (]: Database Error in model dim_employees (models/dim_employees.sql)
+  column "employee_email" does not exist
+  LINE 15: ...ils_surrogate_key_null_') || '-' || coalesce(cast(employee_e...
+                                                                ^
+  compiled code at target/run/notion_analytics/models/dim_employees.sql
+[0m04:38:05.843575 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2c53c59-523d-4a41-893c-3914f55af263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7721739d90>]}
+[0m04:38:05.846231 [error] [Thread-1 (]: 2 of 2 ERROR creating sql view model public.dim_employees ...................... [[31mERROR[0m in 0.08s]
+[0m04:38:05.849241 [debug] [Thread-1 (]: Finished running node model.notion_analytics.dim_employees
+[0m04:38:05.851391 [debug] [Thread-4 (]: Marking all children of 'model.notion_analytics.dim_employees' to be skipped because of status 'error'.  Reason: Database Error in model dim_employees (models/dim_employees.sql)
+  column "employee_email" does not exist
+  LINE 15: ...ils_surrogate_key_null_') || '-' || coalesce(cast(employee_e...
+                                                                ^
+  compiled code at target/run/notion_analytics/models/dim_employees.sql.
+[0m04:38:05.855254 [debug] [MainThread]: Using postgres connection "master"
+[0m04:38:05.856923 [debug] [MainThread]: On master: BEGIN
+[0m04:38:05.858493 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m04:38:05.866586 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m04:38:05.868372 [debug] [MainThread]: On master: COMMIT
+[0m04:38:05.869655 [debug] [MainThread]: Using postgres connection "master"
+[0m04:38:05.870699 [debug] [MainThread]: On master: COMMIT
+[0m04:38:05.872051 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m04:38:05.873280 [debug] [MainThread]: On master: Close
+[0m04:38:05.875085 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:38:05.876376 [debug] [MainThread]: Connection 'model.notion_analytics.dim_employees' was properly closed.
+[0m04:38:05.877621 [info ] [MainThread]: 
+[0m04:38:05.879252 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 1.00 seconds (1.00s).
+[0m04:38:05.881556 [debug] [MainThread]: Command end result
+[0m04:38:05.971806 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:38:05.985423 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:38:06.003642 [debug] [MainThread]: Wrote artifact RunExecutionResult to /usr/app/dbt/dbt_project/target/run_results.json
+[0m04:38:06.005610 [info ] [MainThread]: 
+[0m04:38:06.007727 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m04:38:06.009451 [info ] [MainThread]: 
+[0m04:38:06.011254 [error] [MainThread]: [31mFailure in model dim_employees (models/dim_employees.sql)[0m
+[0m04:38:06.012673 [error] [MainThread]:   Database Error in model dim_employees (models/dim_employees.sql)
+  column "employee_email" does not exist
+  LINE 15: ...ils_surrogate_key_null_') || '-' || coalesce(cast(employee_e...
+                                                                ^
+  compiled code at target/run/notion_analytics/models/dim_employees.sql
+[0m04:38:06.014148 [info ] [MainThread]: 
+[0m04:38:06.016164 [info ] [MainThread]:   compiled code at target/compiled/notion_analytics/models/dim_employees.sql
+[0m04:38:06.018172 [info ] [MainThread]: 
+[0m04:38:06.020004 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=2
+[0m04:38:06.022366 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 5.811796, "process_in_blocks": "440", "process_kernel_time": 0.549832, "process_mem_max_rss": "137172", "process_out_blocks": "2240", "process_user_time": 4.408481}
+[0m04:38:06.023816 [debug] [MainThread]: Command `dbt run` failed at 04:38:06.023678 after 5.81 seconds
+[0m04:38:06.025470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f772a7f5090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f772a7f4ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7723ba0590>]}
+[0m04:38:06.027116 [debug] [MainThread]: Flushing usage events
+[0m04:38:06.430649 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:40:51.591936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03dd90d3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03ddb6a190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03dd809510>]}
+
+
+============================== 04:40:51.601993 | 256f698d-f0fe-4d36-82f8-095c78d0c3f4 ==============================
+[0m04:40:51.601993 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:40:51.604383 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'empty': 'False', 'log_format': 'default', 'profiles_dir': '/usr/app/dbt/dbt_project', 'indirect_selection': 'eager', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'quiet': 'False', 'write_json': 'True', 'use_colors': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error': 'None', 'partial_parse': 'True', 'log_cache_events': 'False', 'log_path': '/usr/app/dbt/dbt_project/logs', 'invocation_command': 'dbt run', 'printer_width': '80', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'fail_fast': 'False'}
+[0m04:40:51.820609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03dc982210>]}
+[0m04:40:51.898175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03e0586190>]}
+[0m04:40:51.902341 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:40:52.005599 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:40:53.378152 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m04:40:53.380415 [debug] [MainThread]: Partial parsing: updated file: notion_analytics://models/staging/stg_notion_people.sql
+[0m04:40:53.744066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03db5b1550>]}
+[0m04:40:53.999231 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:40:54.015559 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:40:54.065946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03dda6a590>]}
+[0m04:40:54.068034 [info ] [MainThread]: Found 2 models, 1 source, 561 macros
+[0m04:40:54.070990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03db192d10>]}
+[0m04:40:54.077301 [info ] [MainThread]: 
+[0m04:40:54.080395 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m04:40:54.083705 [info ] [MainThread]: 
+[0m04:40:54.086929 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m04:40:54.098093 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airflow'
+[0m04:40:54.162006 [debug] [ThreadPool]: Using postgres connection "list_airflow"
+[0m04:40:54.164799 [debug] [ThreadPool]: On list_airflow: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m04:40:54.167307 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:40:54.182576 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.015 seconds
+[0m04:40:54.187668 [debug] [ThreadPool]: On list_airflow: Close
+[0m04:40:54.194592 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airflow, now list_airflow_public)
+[0m04:40:54.207613 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:40:54.210280 [debug] [ThreadPool]: On list_airflow_public: BEGIN
+[0m04:40:54.212511 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:40:54.224499 [debug] [ThreadPool]: SQL status: BEGIN in 0.012 seconds
+[0m04:40:54.227268 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:40:54.230000 [debug] [ThreadPool]: On list_airflow_public: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow_public"} */
+select
+      'airflow' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m04:40:54.238089 [debug] [ThreadPool]: SQL status: SELECT 69 in 0.005 seconds
+[0m04:40:54.246537 [debug] [ThreadPool]: On list_airflow_public: ROLLBACK
+[0m04:40:54.249571 [debug] [ThreadPool]: On list_airflow_public: Close
+[0m04:40:54.267032 [debug] [MainThread]: Using postgres connection "master"
+[0m04:40:54.270522 [debug] [MainThread]: On master: BEGIN
+[0m04:40:54.274148 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:40:54.287723 [debug] [MainThread]: SQL status: BEGIN in 0.014 seconds
+[0m04:40:54.290680 [debug] [MainThread]: Using postgres connection "master"
+[0m04:40:54.293764 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m04:40:54.299808 [debug] [MainThread]: SQL status: SELECT 2 in 0.003 seconds
+[0m04:40:54.304657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03d8651b50>]}
+[0m04:40:54.306735 [debug] [MainThread]: On master: ROLLBACK
+[0m04:40:54.309581 [debug] [MainThread]: Using postgres connection "master"
+[0m04:40:54.311693 [debug] [MainThread]: On master: BEGIN
+[0m04:40:54.314907 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m04:40:54.316969 [debug] [MainThread]: On master: COMMIT
+[0m04:40:54.319181 [debug] [MainThread]: Using postgres connection "master"
+[0m04:40:54.321562 [debug] [MainThread]: On master: COMMIT
+[0m04:40:54.324635 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m04:40:54.327817 [debug] [MainThread]: On master: Close
+[0m04:40:54.337763 [debug] [Thread-1 (]: Began running node model.notion_analytics.stg_notion_people
+[0m04:40:54.340115 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_notion_people ........................... [RUN]
+[0m04:40:54.342044 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airflow_public, now model.notion_analytics.stg_notion_people)
+[0m04:40:54.343786 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.stg_notion_people
+[0m04:40:54.355010 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.stg_notion_people"
+[0m04:40:54.370388 [debug] [Thread-1 (]: Began executing node model.notion_analytics.stg_notion_people
+[0m04:40:54.419763 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.stg_notion_people"
+[0m04:40:54.436442 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:40:54.438320 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: BEGIN
+[0m04:40:54.439879 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:40:54.448551 [debug] [Thread-1 (]: SQL status: BEGIN in 0.009 seconds
+[0m04:40:54.451990 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:40:54.454272 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+
+  create view "airflow"."public"."stg_notion_people__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_notion_people.sql
+
+-- This model selects core employee data from the raw table,
+-- cleans up column names, and converts data types.
+
+SELECT
+    user_id,
+    name,
+    email AS employee_email,
+    -- Coalesce prevents NULL values if the status column is empty
+    COALESCE(status, 'Status Missing') AS employee_status,
+    -- Convert user_id to a common standard for linking
+    TRIM(user_id) AS notion_user_id
+FROM
+    "airflow"."public"."notion_people"
+  );
+[0m04:40:54.458811 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.002 seconds
+[0m04:40:54.469136 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:40:54.470903 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people" rename to "stg_notion_people__dbt_backup"
+[0m04:40:54.473627 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:40:54.479237 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:40:54.480939 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people__dbt_tmp" rename to "stg_notion_people"
+[0m04:40:54.483613 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:40:54.507851 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:40:54.510054 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:40:54.512196 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:40:54.516728 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m04:40:54.525921 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."stg_notion_people__dbt_backup"
+[0m04:40:54.533100 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:40:54.534979 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+drop view if exists "airflow"."public"."stg_notion_people__dbt_backup" cascade
+[0m04:40:54.540892 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.004 seconds
+[0m04:40:54.545885 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: Close
+[0m04:40:54.551136 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03db5b13d0>]}
+[0m04:40:54.554876 [info ] [Thread-1 (]: 1 of 2 OK created sql view model public.stg_notion_people ...................... [[32mCREATE VIEW[0m in 0.21s]
+[0m04:40:54.559791 [debug] [Thread-1 (]: Finished running node model.notion_analytics.stg_notion_people
+[0m04:40:54.564524 [debug] [Thread-1 (]: Began running node model.notion_analytics.dim_employees
+[0m04:40:54.567290 [info ] [Thread-1 (]: 2 of 2 START sql view model public.dim_employees ............................... [RUN]
+[0m04:40:54.569076 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.notion_analytics.stg_notion_people, now model.notion_analytics.dim_employees)
+[0m04:40:54.570647 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.dim_employees
+[0m04:40:54.590687 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.dim_employees"
+[0m04:40:54.604477 [debug] [Thread-1 (]: Began executing node model.notion_analytics.dim_employees
+[0m04:40:54.612296 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.dim_employees"
+[0m04:40:54.624774 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:40:54.626847 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: BEGIN
+[0m04:40:54.628534 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:40:54.637429 [debug] [Thread-1 (]: SQL status: BEGIN in 0.009 seconds
+[0m04:40:54.639925 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:40:54.641461 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+
+  create view "airflow"."public"."dim_employees__dbt_tmp"
+    
+    
+  as (
+    -- models/dim_employees.sql
+
+-- This model creates the final Employee Dimension table (dim_employees).
+-- This is the clean, definitive table that BI tools (like Looker Studio) will query.
+
+SELECT
+    -- Creates a unique, hash-based ID (the Employee Key) for linking to other tables
+    
+    md5(cast(coalesce(cast(notion_user_id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(employee_email as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) AS employee_key,
+    notion_user_id,
+    employee_name,
+    employee_email,
+    employee_status
+FROM
+    "airflow"."public"."stg_notion_people"
+-- Filter out any rows where the email is missing, as the email is critical for linking to Slack/Google.
+WHERE
+    employee_email IS NOT NULL 
+    AND employee_status = 'Active' -- Only include current, active employees for reporting
+  );
+[0m04:40:54.645738 [debug] [Thread-1 (]: Postgres adapter: Postgres error: column "employee_name" does not exist
+LINE 17:     employee_name,
+             ^
+
+[0m04:40:54.647667 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: ROLLBACK
+[0m04:40:54.649910 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: Close
+[0m04:40:54.655210 [debug] [Thread-1 (]: Database Error in model dim_employees (models/dim_employees.sql)
+  column "employee_name" does not exist
+  LINE 17:     employee_name,
+               ^
+  compiled code at target/run/notion_analytics/models/dim_employees.sql
+[0m04:40:54.657687 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '256f698d-f0fe-4d36-82f8-095c78d0c3f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03db5987d0>]}
+[0m04:40:54.659290 [error] [Thread-1 (]: 2 of 2 ERROR creating sql view model public.dim_employees ...................... [[31mERROR[0m in 0.09s]
+[0m04:40:54.661758 [debug] [Thread-1 (]: Finished running node model.notion_analytics.dim_employees
+[0m04:40:54.664175 [debug] [Thread-4 (]: Marking all children of 'model.notion_analytics.dim_employees' to be skipped because of status 'error'.  Reason: Database Error in model dim_employees (models/dim_employees.sql)
+  column "employee_name" does not exist
+  LINE 17:     employee_name,
+               ^
+  compiled code at target/run/notion_analytics/models/dim_employees.sql.
+[0m04:40:54.669494 [debug] [MainThread]: Using postgres connection "master"
+[0m04:40:54.671350 [debug] [MainThread]: On master: BEGIN
+[0m04:40:54.672549 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m04:40:54.682013 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m04:40:54.683930 [debug] [MainThread]: On master: COMMIT
+[0m04:40:54.685960 [debug] [MainThread]: Using postgres connection "master"
+[0m04:40:54.688424 [debug] [MainThread]: On master: COMMIT
+[0m04:40:54.691866 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m04:40:54.694745 [debug] [MainThread]: On master: Close
+[0m04:40:54.697386 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:40:54.699596 [debug] [MainThread]: Connection 'model.notion_analytics.dim_employees' was properly closed.
+[0m04:40:54.702730 [info ] [MainThread]: 
+[0m04:40:54.704797 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.62 seconds (0.62s).
+[0m04:40:54.707807 [debug] [MainThread]: Command end result
+[0m04:40:54.795314 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:40:54.810142 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:40:54.831241 [debug] [MainThread]: Wrote artifact RunExecutionResult to /usr/app/dbt/dbt_project/target/run_results.json
+[0m04:40:54.833522 [info ] [MainThread]: 
+[0m04:40:54.835610 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m04:40:54.838232 [info ] [MainThread]: 
+[0m04:40:54.839960 [error] [MainThread]: [31mFailure in model dim_employees (models/dim_employees.sql)[0m
+[0m04:40:54.841563 [error] [MainThread]:   Database Error in model dim_employees (models/dim_employees.sql)
+  column "employee_name" does not exist
+  LINE 17:     employee_name,
+               ^
+  compiled code at target/run/notion_analytics/models/dim_employees.sql
+[0m04:40:54.843124 [info ] [MainThread]: 
+[0m04:40:54.844819 [info ] [MainThread]:   compiled code at target/compiled/notion_analytics/models/dim_employees.sql
+[0m04:40:54.846910 [info ] [MainThread]: 
+[0m04:40:54.848628 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=2
+[0m04:40:54.851201 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 3.3619, "process_in_blocks": "0", "process_kernel_time": 0.496972, "process_mem_max_rss": "130496", "process_out_blocks": "2240", "process_user_time": 3.180626}
+[0m04:40:54.853180 [debug] [MainThread]: Command `dbt run` failed at 04:40:54.852951 after 3.36 seconds
+[0m04:40:54.854636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03dd7fd790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03dc576ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03e21d8e10>]}
+[0m04:40:54.856196 [debug] [MainThread]: Flushing usage events
+[0m04:40:55.264837 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:42:22.329975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd89657750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd89a5dd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd89663550>]}
+
+
+============================== 04:42:22.343103 | 583024ab-a7c8-4c93-846f-3aba450d545a ==============================
+[0m04:42:22.343103 [info ] [MainThread]: Running with dbt=1.10.13
+[0m04:42:22.347093 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'use_colors': 'True', 'printer_width': '80', 'warn_error': 'None', 'introspect': 'True', 'target_path': 'None', 'profiles_dir': '/usr/app/dbt/dbt_project', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_path': '/usr/app/dbt/dbt_project/logs', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'debug': 'False', 'write_json': 'True', 'log_cache_events': 'False'}
+[0m04:42:22.556554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd8830ab90>]}
+[0m04:42:22.632393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd8c36c590>]}
+[0m04:42:22.634348 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m04:42:22.777714 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m04:42:25.035093 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m04:42:25.037086 [debug] [MainThread]: Partial parsing: updated file: notion_analytics://models/staging/stg_notion_people.sql
+[0m04:42:25.358016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd8836dcd0>]}
+[0m04:42:25.712506 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:42:25.754009 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:42:25.813739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd897a8e90>]}
+[0m04:42:25.817484 [info ] [MainThread]: Found 2 models, 1 source, 561 macros
+[0m04:42:25.821228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd8ac3fa10>]}
+[0m04:42:25.828189 [info ] [MainThread]: 
+[0m04:42:25.830935 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m04:42:25.833602 [info ] [MainThread]: 
+[0m04:42:25.839274 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m04:42:25.847124 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airflow'
+[0m04:42:25.904261 [debug] [ThreadPool]: Using postgres connection "list_airflow"
+[0m04:42:25.907907 [debug] [ThreadPool]: On list_airflow: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m04:42:25.912174 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:42:25.931908 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.020 seconds
+[0m04:42:25.939505 [debug] [ThreadPool]: On list_airflow: Close
+[0m04:42:25.949673 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airflow, now list_airflow_public)
+[0m04:42:25.969990 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:42:25.978479 [debug] [ThreadPool]: On list_airflow_public: BEGIN
+[0m04:42:25.981528 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:42:25.992067 [debug] [ThreadPool]: SQL status: BEGIN in 0.010 seconds
+[0m04:42:25.995748 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m04:42:26.000470 [debug] [ThreadPool]: On list_airflow_public: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow_public"} */
+select
+      'airflow' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m04:42:26.009759 [debug] [ThreadPool]: SQL status: SELECT 69 in 0.003 seconds
+[0m04:42:26.018312 [debug] [ThreadPool]: On list_airflow_public: ROLLBACK
+[0m04:42:26.023468 [debug] [ThreadPool]: On list_airflow_public: Close
+[0m04:42:26.041041 [debug] [MainThread]: Using postgres connection "master"
+[0m04:42:26.051970 [debug] [MainThread]: On master: BEGIN
+[0m04:42:26.054486 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:42:26.068620 [debug] [MainThread]: SQL status: BEGIN in 0.014 seconds
+[0m04:42:26.071718 [debug] [MainThread]: Using postgres connection "master"
+[0m04:42:26.075227 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m04:42:26.082410 [debug] [MainThread]: SQL status: SELECT 2 in 0.003 seconds
+[0m04:42:26.088462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd84489f10>]}
+[0m04:42:26.091939 [debug] [MainThread]: On master: ROLLBACK
+[0m04:42:26.095971 [debug] [MainThread]: Using postgres connection "master"
+[0m04:42:26.099056 [debug] [MainThread]: On master: BEGIN
+[0m04:42:26.103831 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m04:42:26.108363 [debug] [MainThread]: On master: COMMIT
+[0m04:42:26.113627 [debug] [MainThread]: Using postgres connection "master"
+[0m04:42:26.117291 [debug] [MainThread]: On master: COMMIT
+[0m04:42:26.120706 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m04:42:26.125314 [debug] [MainThread]: On master: Close
+[0m04:42:26.136591 [debug] [Thread-1 (]: Began running node model.notion_analytics.stg_notion_people
+[0m04:42:26.140517 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_notion_people ........................... [RUN]
+[0m04:42:26.143899 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airflow_public, now model.notion_analytics.stg_notion_people)
+[0m04:42:26.147777 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.stg_notion_people
+[0m04:42:26.157807 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.stg_notion_people"
+[0m04:42:26.176086 [debug] [Thread-1 (]: Began executing node model.notion_analytics.stg_notion_people
+[0m04:42:26.218341 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.stg_notion_people"
+[0m04:42:26.236755 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:42:26.241141 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: BEGIN
+[0m04:42:26.243924 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:42:26.254847 [debug] [Thread-1 (]: SQL status: BEGIN in 0.011 seconds
+[0m04:42:26.257945 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:42:26.261579 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+
+  create view "airflow"."public"."stg_notion_people__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_notion_people.sql
+
+-- This model selects core employee data from the raw table,
+-- cleans up column names, and converts data types.
+
+SELECT
+    user_id,
+    name AS employee_name,
+    email AS employee_email,
+    -- Coalesce prevents NULL values if the status column is empty
+    COALESCE(status, 'Status Missing') AS employee_status,
+    -- Convert user_id to a common standard for linking
+    TRIM(user_id) AS notion_user_id
+FROM
+    "airflow"."public"."notion_people"
+  );
+[0m04:42:26.268942 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.002 seconds
+[0m04:42:26.280617 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:42:26.285842 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people" rename to "stg_notion_people__dbt_backup"
+[0m04:42:26.290872 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:42:26.298297 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:42:26.302251 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people__dbt_tmp" rename to "stg_notion_people"
+[0m04:42:26.307650 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:42:26.335776 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:42:26.338230 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:42:26.339943 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m04:42:26.343211 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m04:42:26.352045 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."stg_notion_people__dbt_backup"
+[0m04:42:26.359087 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m04:42:26.360695 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+drop view if exists "airflow"."public"."stg_notion_people__dbt_backup" cascade
+[0m04:42:26.364904 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.003 seconds
+[0m04:42:26.368992 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: Close
+[0m04:42:26.372067 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd8437c350>]}
+[0m04:42:26.373790 [info ] [Thread-1 (]: 1 of 2 OK created sql view model public.stg_notion_people ...................... [[32mCREATE VIEW[0m in 0.23s]
+[0m04:42:26.375762 [debug] [Thread-1 (]: Finished running node model.notion_analytics.stg_notion_people
+[0m04:42:26.379013 [debug] [Thread-1 (]: Began running node model.notion_analytics.dim_employees
+[0m04:42:26.381017 [info ] [Thread-1 (]: 2 of 2 START sql view model public.dim_employees ............................... [RUN]
+[0m04:42:26.382708 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.notion_analytics.stg_notion_people, now model.notion_analytics.dim_employees)
+[0m04:42:26.384042 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.dim_employees
+[0m04:42:26.402881 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.dim_employees"
+[0m04:42:26.416020 [debug] [Thread-1 (]: Began executing node model.notion_analytics.dim_employees
+[0m04:42:26.423402 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.dim_employees"
+[0m04:42:26.442704 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:42:26.444342 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: BEGIN
+[0m04:42:26.445935 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:42:26.454458 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m04:42:26.456103 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:42:26.457959 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+
+  create view "airflow"."public"."dim_employees__dbt_tmp"
+    
+    
+  as (
+    -- models/dim_employees.sql
+
+-- This model creates the final Employee Dimension table (dim_employees).
+-- This is the clean, definitive table that BI tools (like Looker Studio) will query.
+
+SELECT
+    -- Creates a unique, hash-based ID (the Employee Key) for linking to other tables
+    
+    md5(cast(coalesce(cast(notion_user_id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(employee_email as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) AS employee_key,
+    notion_user_id,
+    employee_name,
+    employee_email,
+    employee_status
+FROM
+    "airflow"."public"."stg_notion_people"
+-- Filter out any rows where the email is missing, as the email is critical for linking to Slack/Google.
+WHERE
+    employee_email IS NOT NULL 
+    AND employee_status = 'Active' -- Only include current, active employees for reporting
+  );
+[0m04:42:26.463010 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.003 seconds
+[0m04:42:26.469611 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:42:26.471606 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+alter table "airflow"."public"."dim_employees__dbt_tmp" rename to "dim_employees"
+[0m04:42:26.474090 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m04:42:26.476848 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: COMMIT
+[0m04:42:26.478528 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:42:26.480543 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: COMMIT
+[0m04:42:26.483535 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m04:42:26.488696 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."dim_employees__dbt_backup"
+[0m04:42:26.490955 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m04:42:26.492509 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+drop view if exists "airflow"."public"."dim_employees__dbt_backup" cascade
+[0m04:42:26.495418 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m04:42:26.498177 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: Close
+[0m04:42:26.499883 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '583024ab-a7c8-4c93-846f-3aba450d545a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd8438ea10>]}
+[0m04:42:26.501804 [info ] [Thread-1 (]: 2 of 2 OK created sql view model public.dim_employees .......................... [[32mCREATE VIEW[0m in 0.12s]
+[0m04:42:26.505091 [debug] [Thread-1 (]: Finished running node model.notion_analytics.dim_employees
+[0m04:42:26.508809 [debug] [MainThread]: Using postgres connection "master"
+[0m04:42:26.510747 [debug] [MainThread]: On master: BEGIN
+[0m04:42:26.512750 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m04:42:26.521424 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m04:42:26.523001 [debug] [MainThread]: On master: COMMIT
+[0m04:42:26.524715 [debug] [MainThread]: Using postgres connection "master"
+[0m04:42:26.526649 [debug] [MainThread]: On master: COMMIT
+[0m04:42:26.528697 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m04:42:26.530093 [debug] [MainThread]: On master: Close
+[0m04:42:26.531883 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:42:26.533596 [debug] [MainThread]: Connection 'model.notion_analytics.dim_employees' was properly closed.
+[0m04:42:26.535233 [info ] [MainThread]: 
+[0m04:42:26.537705 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.70 seconds (0.70s).
+[0m04:42:26.540882 [debug] [MainThread]: Command end result
+[0m04:42:26.608438 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m04:42:26.616903 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m04:42:26.629385 [debug] [MainThread]: Wrote artifact RunExecutionResult to /usr/app/dbt/dbt_project/target/run_results.json
+[0m04:42:26.631091 [info ] [MainThread]: 
+[0m04:42:26.633854 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m04:42:26.637200 [info ] [MainThread]: 
+[0m04:42:26.639626 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m04:42:26.642008 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.425949, "process_in_blocks": "0", "process_kernel_time": 0.414126, "process_mem_max_rss": "130116", "process_out_blocks": "2240", "process_user_time": 3.017206}
+[0m04:42:26.644822 [debug] [MainThread]: Command `dbt run` succeeded at 04:42:26.644345 after 4.43 seconds
+[0m04:42:26.646865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd895f3790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd895f0750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd8c482110>]}
+[0m04:42:26.648586 [debug] [MainThread]: Flushing usage events
+[0m04:42:27.042804 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:38:38.909728 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8875b42f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8875b429d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8875b42a10>]}
+
+
+============================== 05:38:38.928367 | 9a56ff1e-c68c-4155-8aac-8427c340a8a3 ==============================
+[0m05:38:38.928367 [info ] [MainThread]: Running with dbt=1.10.13
+[0m05:38:38.932383 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'cache_selected_only': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'warn_error': 'None', 'target_path': 'None', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'no_print': 'None', 'profiles_dir': '/usr/app/dbt/dbt_project', 'quiet': 'False', 'static_parser': 'True', 'empty': 'None', 'invocation_command': 'dbt clean', 'use_colors': 'True', 'log_path': '/usr/app/dbt/dbt_project/logs', 'write_json': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager'}
+[0m05:38:39.105610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9a56ff1e-c68c-4155-8aac-8427c340a8a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8875ad4990>]}
+[0m05:38:39.275343 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": true, "command_wall_clock_time": 0.4839621, "process_in_blocks": "16", "process_kernel_time": 0.638939, "process_mem_max_rss": "105216", "process_out_blocks": "2088", "process_user_time": 2.026637}
+[0m05:38:39.278205 [debug] [MainThread]: Command `dbt clean` succeeded at 05:38:39.277919 after 0.49 seconds
+[0m05:38:39.279739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8875a6d910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8875a6d950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f887a3f4610>]}
+[0m05:38:39.281427 [debug] [MainThread]: Flushing usage events
+[0m05:38:39.686425 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:38:49.643015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657e17b450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657e3d22d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657e17b390>]}
+
+
+============================== 05:38:49.657717 | 55a48a65-0867-4a9e-954f-3eafb4d21249 ==============================
+[0m05:38:49.657717 [info ] [MainThread]: Running with dbt=1.10.13
+[0m05:38:49.660556 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'invocation_command': 'dbt run', 'log_path': '/usr/app/dbt/dbt_project/logs', 'version_check': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'printer_width': '80', 'introspect': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'debug': 'False', 'profiles_dir': '/usr/app/dbt/dbt_project', 'quiet': 'False', 'target_path': 'None', 'warn_error': 'None', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'fail_fast': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False'}
+[0m05:38:49.961164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657d125e50>]}
+[0m05:38:50.039489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6580dde5d0>]}
+[0m05:38:50.041735 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m05:38:50.152412 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m05:38:50.161900 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m05:38:50.163752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657d144490>]}
+[0m05:38:53.445089 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.unique_my_first_dbt_model_id.16e066b321' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which is disabled
+[0m05:38:53.450768 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.not_null_my_first_dbt_model_id.5fb22c2710' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which is disabled
+[0m05:38:53.453146 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.unique_my_second_dbt_model_id.57a0f8c493' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which is disabled
+[0m05:38:53.460259 [debug] [MainThread]: [[33mWARNING[0m]: Test 'test.notion_analytics.not_null_my_second_dbt_model_id.151b76d778' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which is disabled
+[0m05:38:53.651560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6579b47fd0>]}
+[0m05:38:53.870825 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m05:38:53.904781 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m05:38:53.954329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657995e150>]}
+[0m05:38:53.956286 [info ] [MainThread]: Found 2 models, 1 source, 561 macros
+[0m05:38:53.958128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6579a0b090>]}
+[0m05:38:53.961571 [info ] [MainThread]: 
+[0m05:38:53.963114 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m05:38:53.964710 [info ] [MainThread]: 
+[0m05:38:53.966707 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:38:53.972846 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airflow'
+[0m05:38:54.037659 [debug] [ThreadPool]: Using postgres connection "list_airflow"
+[0m05:38:54.040235 [debug] [ThreadPool]: On list_airflow: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:38:54.042649 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:38:54.065229 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.022 seconds
+[0m05:38:54.068428 [debug] [ThreadPool]: On list_airflow: Close
+[0m05:38:54.071791 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airflow, now list_airflow_public)
+[0m05:38:54.080383 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m05:38:54.086326 [debug] [ThreadPool]: On list_airflow_public: BEGIN
+[0m05:38:54.097172 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m05:38:54.116158 [debug] [ThreadPool]: SQL status: BEGIN in 0.019 seconds
+[0m05:38:54.122442 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m05:38:54.126762 [debug] [ThreadPool]: On list_airflow_public: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow_public"} */
+select
+      'airflow' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m05:38:54.147842 [debug] [ThreadPool]: SQL status: SELECT 70 in 0.009 seconds
+[0m05:38:54.162101 [debug] [ThreadPool]: On list_airflow_public: ROLLBACK
+[0m05:38:54.167024 [debug] [ThreadPool]: On list_airflow_public: Close
+[0m05:38:54.280652 [debug] [MainThread]: Using postgres connection "master"
+[0m05:38:54.283734 [debug] [MainThread]: On master: BEGIN
+[0m05:38:54.289777 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:38:54.302579 [debug] [MainThread]: SQL status: BEGIN in 0.013 seconds
+[0m05:38:54.304835 [debug] [MainThread]: Using postgres connection "master"
+[0m05:38:54.308933 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:38:54.321980 [debug] [MainThread]: SQL status: SELECT 3 in 0.008 seconds
+[0m05:38:54.329072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6579b98b90>]}
+[0m05:38:54.330933 [debug] [MainThread]: On master: ROLLBACK
+[0m05:38:54.332604 [debug] [MainThread]: Using postgres connection "master"
+[0m05:38:54.334731 [debug] [MainThread]: On master: BEGIN
+[0m05:38:54.339324 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m05:38:54.340909 [debug] [MainThread]: On master: COMMIT
+[0m05:38:54.342045 [debug] [MainThread]: Using postgres connection "master"
+[0m05:38:54.343369 [debug] [MainThread]: On master: COMMIT
+[0m05:38:54.345252 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m05:38:54.347481 [debug] [MainThread]: On master: Close
+[0m05:38:54.356585 [debug] [Thread-1 (]: Began running node model.notion_analytics.stg_notion_people
+[0m05:38:54.358931 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_notion_people ........................... [RUN]
+[0m05:38:54.361003 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airflow_public, now model.notion_analytics.stg_notion_people)
+[0m05:38:54.362633 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.stg_notion_people
+[0m05:38:54.374303 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.stg_notion_people"
+[0m05:38:54.412428 [debug] [Thread-1 (]: Began executing node model.notion_analytics.stg_notion_people
+[0m05:38:54.459187 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.stg_notion_people"
+[0m05:38:54.491256 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m05:38:54.493053 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: BEGIN
+[0m05:38:54.495181 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:38:54.506055 [debug] [Thread-1 (]: SQL status: BEGIN in 0.011 seconds
+[0m05:38:54.508044 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m05:38:54.511096 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+
+  create view "airflow"."public"."stg_notion_people__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_notion_people.sql
+
+-- This model selects core employee data from the raw table,
+-- cleans up column names, and converts data types.
+
+SELECT
+    user_id,
+    name AS employee_name,
+    email AS employee_email,
+    -- Coalesce prevents NULL values if the status column is empty
+    COALESCE(status, 'Status Missing') AS employee_status,
+    -- Convert user_id to a common standard for linking
+    TRIM(user_id) AS notion_user_id
+FROM
+    "airflow"."public"."notion_people"
+  );
+[0m05:38:54.522077 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.009 seconds
+[0m05:38:54.532955 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m05:38:54.534679 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people" rename to "stg_notion_people__dbt_backup"
+[0m05:38:54.538190 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m05:38:54.544062 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m05:38:54.545940 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people__dbt_tmp" rename to "stg_notion_people"
+[0m05:38:54.547867 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:38:54.568083 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m05:38:54.570662 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m05:38:54.572301 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m05:38:54.575042 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m05:38:54.583643 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."stg_notion_people__dbt_backup"
+[0m05:38:54.591219 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m05:38:54.593035 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+drop view if exists "airflow"."public"."stg_notion_people__dbt_backup" cascade
+[0m05:38:54.598937 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.004 seconds
+[0m05:38:54.603156 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: Close
+[0m05:38:54.607327 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6579a29d50>]}
+[0m05:38:54.609124 [info ] [Thread-1 (]: 1 of 2 OK created sql view model public.stg_notion_people ...................... [[32mCREATE VIEW[0m in 0.24s]
+[0m05:38:54.610757 [debug] [Thread-1 (]: Finished running node model.notion_analytics.stg_notion_people
+[0m05:38:54.615320 [debug] [Thread-1 (]: Began running node model.notion_analytics.dim_employees
+[0m05:38:54.619348 [info ] [Thread-1 (]: 2 of 2 START sql view model public.dim_employees ............................... [RUN]
+[0m05:38:54.623870 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.notion_analytics.stg_notion_people, now model.notion_analytics.dim_employees)
+[0m05:38:54.628222 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.dim_employees
+[0m05:38:54.637865 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.dim_employees"
+[0m05:38:54.650600 [debug] [Thread-1 (]: Began executing node model.notion_analytics.dim_employees
+[0m05:38:54.658746 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.dim_employees"
+[0m05:38:54.671624 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m05:38:54.673450 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: BEGIN
+[0m05:38:54.674929 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:38:54.683279 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m05:38:54.685384 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m05:38:54.687234 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+
+  create view "airflow"."public"."dim_employees__dbt_tmp"
+    
+    
+  as (
+    -- models/dim_employees.sql
+
+-- This model creates the final Employee Dimension table (dim_employees).
+-- This is the clean, definitive table that BI tools (like Looker Studio) will query.
+
+SELECT
+    -- Creates a unique, hash-based ID (the Employee Key) for linking to other tables
+    
+    md5(cast(coalesce(cast(notion_user_id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(employee_email as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) AS employee_key,
+    notion_user_id,
+    employee_name,
+    employee_email,
+    employee_status
+FROM
+    "airflow"."public"."stg_notion_people"
+-- Filter out any rows where the email is missing, as the email is critical for linking to Slack/Google.
+WHERE
+    employee_email IS NOT NULL 
+    AND employee_status = 'Active' -- Only include current, active employees for reporting
+  );
+[0m05:38:54.691327 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.002 seconds
+[0m05:38:54.696817 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m05:38:54.698763 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+alter table "airflow"."public"."dim_employees__dbt_tmp" rename to "dim_employees"
+[0m05:38:54.700761 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m05:38:54.704151 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: COMMIT
+[0m05:38:54.705748 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m05:38:54.707371 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: COMMIT
+[0m05:38:54.710778 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m05:38:54.716319 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."dim_employees__dbt_backup"
+[0m05:38:54.718930 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m05:38:54.720192 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+drop view if exists "airflow"."public"."dim_employees__dbt_backup" cascade
+[0m05:38:54.722825 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m05:38:54.726114 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: Close
+[0m05:38:54.727818 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '55a48a65-0867-4a9e-954f-3eafb4d21249', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657bd103d0>]}
+[0m05:38:54.729540 [info ] [Thread-1 (]: 2 of 2 OK created sql view model public.dim_employees .......................... [[32mCREATE VIEW[0m in 0.10s]
+[0m05:38:54.731822 [debug] [Thread-1 (]: Finished running node model.notion_analytics.dim_employees
+[0m05:38:54.736306 [debug] [MainThread]: Using postgres connection "master"
+[0m05:38:54.738323 [debug] [MainThread]: On master: BEGIN
+[0m05:38:54.739988 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:38:54.748095 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m05:38:54.749478 [debug] [MainThread]: On master: COMMIT
+[0m05:38:54.750606 [debug] [MainThread]: Using postgres connection "master"
+[0m05:38:54.752838 [debug] [MainThread]: On master: COMMIT
+[0m05:38:54.754818 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m05:38:54.755958 [debug] [MainThread]: On master: Close
+[0m05:38:54.757230 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:38:54.758351 [debug] [MainThread]: Connection 'model.notion_analytics.dim_employees' was properly closed.
+[0m05:38:54.759448 [info ] [MainThread]: 
+[0m05:38:54.760735 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.79 seconds (0.79s).
+[0m05:38:54.762701 [debug] [MainThread]: Command end result
+[0m05:38:54.835765 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m05:38:54.860877 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m05:38:54.890538 [debug] [MainThread]: Wrote artifact RunExecutionResult to /usr/app/dbt/dbt_project/target/run_results.json
+[0m05:38:54.892778 [info ] [MainThread]: 
+[0m05:38:54.898598 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:38:54.902069 [info ] [MainThread]: 
+[0m05:38:54.905010 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m05:38:54.908393 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 5.434427, "process_in_blocks": "0", "process_kernel_time": 0.53997, "process_mem_max_rss": "137288", "process_out_blocks": "2240", "process_user_time": 4.689746}
+[0m05:38:54.910979 [debug] [MainThread]: Command `dbt run` succeeded at 05:38:54.910684 after 5.44 seconds
+[0m05:38:54.912671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657e371890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6582a34fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6580d97b10>]}
+[0m05:38:54.914135 [debug] [MainThread]: Flushing usage events
+[0m05:38:55.303736 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:24:09.316710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e0ce6c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e0ce6950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e133a850>]}
+
+
+============================== 17:24:09.326600 | 31d49f82-4d2c-4bcd-b14c-19a473af704e ==============================
+[0m17:24:09.326600 [info ] [MainThread]: Running with dbt=1.10.13
+[0m17:24:09.328534 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'invocation_command': 'dbt run --project-dir /usr/app/dbt/dbt_project', 'indirect_selection': 'eager', 'log_format': 'default', 'target_path': 'None', 'partial_parse': 'True', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'use_colors': 'True', 'quiet': 'False', 'log_path': '/usr/app/dbt/dbt_project/logs', 'static_parser': 'True', 'debug': 'False', 'printer_width': '80', 'warn_error': 'None', 'introspect': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'no_print': 'None', 'version_check': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/usr/app/dbt/dbt_project'}
+[0m17:24:09.590812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e0cdee50>]}
+[0m17:24:09.693500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e395e490>]}
+[0m17:24:09.699522 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m17:24:09.925600 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m17:24:13.273745 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 3 files changed.
+[0m17:24:13.275259 [debug] [MainThread]: Partial parsing: updated file: dbt://macros/materializations/functions/scalar.sql
+[0m17:24:13.276374 [debug] [MainThread]: Partial parsing: updated file: dbt://macros/materializations/functions/function.sql
+[0m17:24:13.277514 [debug] [MainThread]: Partial parsing: updated file: notion_analytics://models/dim_employees.sql
+[0m17:24:13.654511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1de9efdd0>]}
+[0m17:24:13.991092 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m17:24:14.005487 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m17:24:14.064803 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1de91ea50>]}
+[0m17:24:14.067248 [info ] [MainThread]: Found 2 models, 1 source, 565 macros
+[0m17:24:14.070322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1de9cf290>]}
+[0m17:24:14.074650 [info ] [MainThread]: 
+[0m17:24:14.077086 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:24:14.079200 [info ] [MainThread]: 
+[0m17:24:14.081257 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m17:24:14.089795 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airflow'
+[0m17:24:14.148603 [debug] [ThreadPool]: Using postgres connection "list_airflow"
+[0m17:24:14.151366 [debug] [ThreadPool]: On list_airflow: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:24:14.153801 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:24:14.183150 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.029 seconds
+[0m17:24:14.187138 [debug] [ThreadPool]: On list_airflow: Close
+[0m17:24:14.191358 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airflow, now list_airflow_public)
+[0m17:24:14.199834 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m17:24:14.201693 [debug] [ThreadPool]: On list_airflow_public: BEGIN
+[0m17:24:14.203271 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:24:14.211542 [debug] [ThreadPool]: SQL status: BEGIN in 0.008 seconds
+[0m17:24:14.213451 [debug] [ThreadPool]: Using postgres connection "list_airflow_public"
+[0m17:24:14.215014 [debug] [ThreadPool]: On list_airflow_public: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "list_airflow_public"} */
+select
+      'airflow' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'airflow' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m17:24:14.220596 [debug] [ThreadPool]: SQL status: SELECT 68 in 0.004 seconds
+[0m17:24:14.224678 [debug] [ThreadPool]: On list_airflow_public: ROLLBACK
+[0m17:24:14.226311 [debug] [ThreadPool]: On list_airflow_public: Close
+[0m17:24:14.243708 [debug] [MainThread]: Using postgres connection "master"
+[0m17:24:14.245190 [debug] [MainThread]: On master: BEGIN
+[0m17:24:14.246476 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:24:14.256863 [debug] [MainThread]: SQL status: BEGIN in 0.010 seconds
+[0m17:24:14.258863 [debug] [MainThread]: Using postgres connection "master"
+[0m17:24:14.260646 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m17:24:14.266217 [debug] [MainThread]: SQL status: SELECT 2 in 0.004 seconds
+[0m17:24:14.270869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1de565f90>]}
+[0m17:24:14.272454 [debug] [MainThread]: On master: ROLLBACK
+[0m17:24:14.273995 [debug] [MainThread]: Using postgres connection "master"
+[0m17:24:14.275205 [debug] [MainThread]: On master: BEGIN
+[0m17:24:14.276624 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m17:24:14.278216 [debug] [MainThread]: On master: COMMIT
+[0m17:24:14.279724 [debug] [MainThread]: Using postgres connection "master"
+[0m17:24:14.280907 [debug] [MainThread]: On master: COMMIT
+[0m17:24:14.282469 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m17:24:14.283706 [debug] [MainThread]: On master: Close
+[0m17:24:14.292092 [debug] [Thread-1 (]: Began running node model.notion_analytics.stg_notion_people
+[0m17:24:14.293815 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_notion_people ........................... [RUN]
+[0m17:24:14.296211 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airflow_public, now model.notion_analytics.stg_notion_people)
+[0m17:24:14.298821 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.stg_notion_people
+[0m17:24:14.309195 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.stg_notion_people"
+[0m17:24:14.325022 [debug] [Thread-1 (]: Began executing node model.notion_analytics.stg_notion_people
+[0m17:24:14.391218 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.stg_notion_people"
+[0m17:24:14.408613 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m17:24:14.410307 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: BEGIN
+[0m17:24:14.411637 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:24:14.420382 [debug] [Thread-1 (]: SQL status: BEGIN in 0.009 seconds
+[0m17:24:14.422051 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m17:24:14.423578 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+
+  create view "airflow"."public"."stg_notion_people__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_notion_people.sql
+
+-- This model selects core employee data from the raw table,
+-- cleans up column names, and converts data types.
+
+SELECT
+    user_id,
+    name AS employee_name,
+    email AS employee_email,
+    -- Coalesce prevents NULL values if the status column is empty
+    COALESCE(status, 'Status Missing') AS employee_status,
+    -- Convert user_id to a common standard for linking
+    TRIM(user_id) AS notion_user_id
+FROM
+    "airflow"."public"."notion_people"
+  );
+[0m17:24:14.430512 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.005 seconds
+[0m17:24:14.440429 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m17:24:14.441819 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people" rename to "stg_notion_people__dbt_backup"
+[0m17:24:14.443752 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m17:24:14.448434 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m17:24:14.450183 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+alter table "airflow"."public"."stg_notion_people__dbt_tmp" rename to "stg_notion_people"
+[0m17:24:14.452196 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m17:24:14.478511 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m17:24:14.481065 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m17:24:14.483800 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: COMMIT
+[0m17:24:14.489566 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m17:24:14.503188 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."stg_notion_people__dbt_backup"
+[0m17:24:14.510220 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.stg_notion_people"
+[0m17:24:14.511908 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.stg_notion_people"} */
+drop view if exists "airflow"."public"."stg_notion_people__dbt_backup" cascade
+[0m17:24:14.515456 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m17:24:14.519849 [debug] [Thread-1 (]: On model.notion_analytics.stg_notion_people: Close
+[0m17:24:14.523207 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1dda29dd0>]}
+[0m17:24:14.525174 [info ] [Thread-1 (]: 1 of 2 OK created sql view model public.stg_notion_people ...................... [[32mCREATE VIEW[0m in 0.23s]
+[0m17:24:14.527534 [debug] [Thread-1 (]: Finished running node model.notion_analytics.stg_notion_people
+[0m17:24:14.530732 [debug] [Thread-1 (]: Began running node model.notion_analytics.dim_employees
+[0m17:24:14.532436 [info ] [Thread-1 (]: 2 of 2 START sql view model public.dim_employees ............................... [RUN]
+[0m17:24:14.534643 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.notion_analytics.stg_notion_people, now model.notion_analytics.dim_employees)
+[0m17:24:14.536513 [debug] [Thread-1 (]: Began compiling node model.notion_analytics.dim_employees
+[0m17:24:14.542780 [debug] [Thread-1 (]: Writing injected SQL for node "model.notion_analytics.dim_employees"
+[0m17:24:14.555838 [debug] [Thread-1 (]: Began executing node model.notion_analytics.dim_employees
+[0m17:24:14.562888 [debug] [Thread-1 (]: Writing runtime sql for node "model.notion_analytics.dim_employees"
+[0m17:24:14.582427 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m17:24:14.585791 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: BEGIN
+[0m17:24:14.588205 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:24:14.599575 [debug] [Thread-1 (]: SQL status: BEGIN in 0.011 seconds
+[0m17:24:14.601747 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m17:24:14.604157 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+
+  create view "airflow"."public"."dim_employees__dbt_tmp"
+    
+    
+  as (
+    -- models/dim_employees.sql
+
+-- This model creates the final Employee Dimension table (dim_employees).
+-- This is the clean, definitive table that BI tools (like Looker Studio) will query.
+
+SELECT
+    -- Creates a unique, hash-based ID (the Employee Key) for linking to other tables
+    
+    md5(cast(coalesce(cast(notion_user_id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(employee_email as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) AS employee_key,
+    notion_user_id,
+    employee_name,
+    employee_email,
+    employee_status
+FROM
+    "airflow"."public"."stg_notion_people"
+-- Filter out any rows where the email is missing, as the email is critical for linking to Slack/Google.
+WHERE
+    employee_email IS NOT NULL 
+    AND employee_status IS NOT NULL -- OInclude all statuses that are not missing
+  );
+[0m17:24:14.608911 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.002 seconds
+[0m17:24:14.614932 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m17:24:14.616996 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+alter table "airflow"."public"."dim_employees__dbt_tmp" rename to "dim_employees"
+[0m17:24:14.619790 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m17:24:14.622797 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: COMMIT
+[0m17:24:14.624562 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m17:24:14.626152 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: COMMIT
+[0m17:24:14.631464 [debug] [Thread-1 (]: SQL status: COMMIT in 0.004 seconds
+[0m17:24:14.636808 [debug] [Thread-1 (]: Applying DROP to: "airflow"."public"."dim_employees__dbt_backup"
+[0m17:24:14.638842 [debug] [Thread-1 (]: Using postgres connection "model.notion_analytics.dim_employees"
+[0m17:24:14.640404 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "notion_analytics", "target_name": "dev", "node_id": "model.notion_analytics.dim_employees"} */
+drop view if exists "airflow"."public"."dim_employees__dbt_backup" cascade
+[0m17:24:14.641980 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m17:24:14.644269 [debug] [Thread-1 (]: On model.notion_analytics.dim_employees: Close
+[0m17:24:14.646123 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31d49f82-4d2c-4bcd-b14c-19a473af704e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1df102a50>]}
+[0m17:24:14.647848 [info ] [Thread-1 (]: 2 of 2 OK created sql view model public.dim_employees .......................... [[32mCREATE VIEW[0m in 0.11s]
+[0m17:24:14.650206 [debug] [Thread-1 (]: Finished running node model.notion_analytics.dim_employees
+[0m17:24:14.653629 [debug] [MainThread]: Using postgres connection "master"
+[0m17:24:14.655009 [debug] [MainThread]: On master: BEGIN
+[0m17:24:14.656556 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:24:14.664191 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m17:24:14.665846 [debug] [MainThread]: On master: COMMIT
+[0m17:24:14.668426 [debug] [MainThread]: Using postgres connection "master"
+[0m17:24:14.670485 [debug] [MainThread]: On master: COMMIT
+[0m17:24:14.672504 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m17:24:14.674043 [debug] [MainThread]: On master: Close
+[0m17:24:14.675456 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:24:14.676753 [debug] [MainThread]: Connection 'model.notion_analytics.dim_employees' was properly closed.
+[0m17:24:14.678393 [info ] [MainThread]: 
+[0m17:24:14.679948 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.60 seconds (0.60s).
+[0m17:24:14.682756 [debug] [MainThread]: Command end result
+[0m17:24:14.765645 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/app/dbt/dbt_project/target/manifest.json
+[0m17:24:14.776820 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/app/dbt/dbt_project/target/semantic_manifest.json
+[0m17:24:14.791914 [debug] [MainThread]: Wrote artifact RunExecutionResult to /usr/app/dbt/dbt_project/target/run_results.json
+[0m17:24:14.793400 [info ] [MainThread]: 
+[0m17:24:14.794905 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:24:14.797343 [info ] [MainThread]: 
+[0m17:24:14.799516 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m17:24:14.803868 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 5.701306, "process_in_blocks": "124488", "process_kernel_time": 0.464297, "process_mem_max_rss": "128320", "process_out_blocks": "2240", "process_user_time": 3.208813}
+[0m17:24:14.805698 [debug] [MainThread]: Command `dbt run` succeeded at 17:24:14.805440 after 5.70 seconds
+[0m17:24:14.806953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e0be7590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e0be6610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1e55a0590>]}
+[0m17:24:14.808183 [debug] [MainThread]: Flushing usage events
+[0m17:24:15.190565 [debug] [MainThread]: An error was encountered while trying to flush usage events

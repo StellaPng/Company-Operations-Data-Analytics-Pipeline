@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: public 
+    schema: public
+    database: airflow # Name of the database we connected to
+
+    tables:
+      - name: notion_people # This must exactly match the table name we created in PostgreSQL
